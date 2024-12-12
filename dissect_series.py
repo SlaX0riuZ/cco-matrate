@@ -55,8 +55,10 @@ def return_mps(arr, rarity, legbool):
 def material_check(cubearr, rarity):
         output_arr = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
         for AB in range(len(cubearr)):
+                # ---------------------------------------------------
                 reg_mps = return_mps(cubearr, rarity, 0)
                 leg_mps = return_mps(cubearr, rarity, 1)
+                # ---------------------------------------------------
                 output_arr[0] = reg_mps * cubearr.count("Painted") # How many times this shows up
                 output_arr[1] = reg_mps * cubearr.count("Electronic")
                 output_arr[2] = reg_mps * cubearr.count("Plastic")
@@ -91,6 +93,7 @@ def material_check(cubearr, rarity):
                 output_arr[30] = leg_mps * cubearr.count("Hot")
                 output_arr[31] = leg_mps * cubearr.count("Haunted")
                 output_arr[32] = leg_mps * cubearr.count("Cold")
+                # ---------------------------------------------------
         return output_arr # This is the output for the cube itself.
 
 def dissect(s):
@@ -103,3 +106,11 @@ def dissect(s):
                                 output_arr[AC] = round(mps_output[AC],4)
 
         print(output_arr)
+        return output_arr
+
+def mats_on_afk(minutes, series, tallym, hsbool):
+        dissect(series)
+        minutes = int(input("Planned AFK time (minutes): "))
+        if input("Spinning with Tally Mods? (y/n): ") == "y" or "Y":
+                tallym = 1 + int(input("How many boxes? (Input the number, ie '9' for +9)"))
+        
