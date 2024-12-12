@@ -40,6 +40,8 @@ def return_mps(arr, rarity, legbool):
                         return (arr[2]/100) * 3.5392
                 elif rarity == 6:
                         return (arr[2]/100) * 6
+                else:
+                        return 0 # failsafe
         elif legbool == True: # Return legendary materials (ie Strange Capacitors)
                 if rarity == 4:
                         return (arr[2]/100) * 2.4312
@@ -47,6 +49,8 @@ def return_mps(arr, rarity, legbool):
                         return (arr[2]/100) * 2.8312
                 elif rarity == 6:
                         return (arr[2]/100) * 6
+                else:
+                        return 0 # failsafe
 
 def material_check(cubearr, rarity):
         output_arr = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
@@ -82,22 +86,20 @@ def material_check(cubearr, rarity):
                 # ---------------------------------------------------
                 output_arr[26] = leg_mps * cubearr.count("Glass")
                 output_arr[27] = leg_mps * cubearr.count("Electronic")
-
                 output_arr[28] = leg_mps * cubearr.count("Shiny")
                 output_arr[29] = leg_mps * cubearr.count("Plastic")
                 output_arr[30] = leg_mps * cubearr.count("Hot")
                 output_arr[31] = leg_mps * cubearr.count("Haunted")
-
                 output_arr[32] = leg_mps * cubearr.count("Cold")
-
-        return output_arr
+        return output_arr # This is the output for the cube itself.
 
 def dissect(s):
         output_arr = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
         for AA in range(len(s)):
                 rarity = check_rarity(s, AA, 1) # Tested, this works as intended!
-                print(rarity)
-                print(material_check(s[AA], rarity))
+                mps_output = (material_check(s[AA], rarity))
+                for AC in range(len(output_arr)):
+                        if mps_output[AC] > output_arr[AC]:
+                                output_arr[AC] = round(mps_output[AC],4)
 
-
-
+        print(output_arr)
