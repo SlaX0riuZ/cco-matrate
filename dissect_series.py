@@ -1,4 +1,5 @@
 import matlist as ml
+import cubelist as cb
 
 # OA: (0)Dye, Circuits, Plastic, Hamburger, (4)Filament, 
 # Patch, Dumbbells, Charcoal, Feather, (9)Resin, Shard, 
@@ -23,6 +24,9 @@ def check_rarity(arr, p, q):
                 return 5
         elif arr[p][q] == "cb":
                 return 6
+        else:
+                print("+-------FATAL ERROR HAS OCCURRED-------+")
+                raise ValueError("Improper rarity at cube: " + str(arr[p][0])) # Fucked up!!
 
 def return_mps(arr, rarity, legbool):
         if legbool == False: # Return regular materials (ie Plastics)
@@ -108,4 +112,15 @@ def beautify_mlist(arr, min, tmod, hsb):
         boxprint("Unrolled Materials")
         print(notrolled)
         print("+----------------+")
-        
+
+def series_check(u):
+        if u == 'series_1':
+                return cb.series_1
+        elif u == 'series_2':
+                return cb.series_2
+        elif u == 'emote':
+                return cb.emote
+        elif u == 'ccc2':
+                return cb.ccc2
+        elif u == 'hazardous':
+                return cb.hazardous

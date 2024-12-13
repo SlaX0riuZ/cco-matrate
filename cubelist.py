@@ -63,3 +63,56 @@ series_2 = [
     ["mutes", "cb", 0.12, "Glass", "Electronic", "Hard"],
     ["binary", "cb", 0.12, "Emits Light"]
 ]
+
+emote = [
+    ["ayaya", "c", 17.64, "Shiny", "Plastic"],
+    ["kekw", "c", 17.64, "Dull", "Painted"],
+    ["pog", "u", 15.43, "Makes Noise", "Wet"],
+    ["5head", "u", 15.43, "Painted", "Dull"],
+    ["yep", "r", 8.82, "Electronic", "Haunted"],
+    ["monkaw", "r", 8.82, "Electronic", "Haunted"],
+    ["pepel", "e", 4.41, "Organic", "Electronic"],
+    ["pepehmm", "e", 4.41, "Organic", "Electronic"],
+    ["wicked", "l", 2.20, "Organic", "Fresh"],
+    ["popcat", "l", 2.20, "Organic", "Makes Noise", "Fresh"],
+    ["sadge", "rl", 1.32, "Fresh", "Haunted"],
+    ["pepega", "rl", 1.32, "Dull", "Haunted"],
+    ["ez", "cb", 0.18, "Organic", "Made with Fabric"],
+    ["pepelaugh", "cb", 0.18, "Organic", "Dull"]
+]
+
+ccc2 = [
+    ["abstract_1", "c", 11.76, "Plastic", "Dull"],
+    ["abstract_2", "c", 11.76, "Plastic", "Dull"],
+    ["abstract_3", "c", 11.76, "Plastic", "Dull"],
+    ["xiii_remix", "u", 30.86, "Plastic", "Haunted"],
+    ["peeka", "r", 8.82, "Plastic", "Painted"],
+    ["twirling", "r", 8.82, "Plastic", "Electronic"],
+    ["celebratory", "e", 4.41, "Hot", "Painted"],
+    ["mouth", "e", 4.41, "Organic", "Slimy"],
+    ["lunar_flare", "l", 2.20, "Emits Light", "Magnetic"],
+    ["weird_box", "l", 2.20, "Heavy", "Haunted", "Organic"],
+    ["pulsar_cube", "rl", 1.32, "Emits Light", "Heavy"],
+    ["laser_tag", "rl", 1.32, "Emits Light", "Electronic", "Magnetic"],
+    ["rotting_log", "cb", 0.12, "Organic", "Wet"],
+    ["racc_2", "cb", 0.12, "Organic", "Wet"],
+    ["cotw", "cb", 0.12, "Haunted", "Hard"]
+]
+hazardous = [
+    ["yellow_haz", "c", 11.76, "Plastic", "Glass"],
+    ["red_haz", "c", 11.76, "Plastic", "Glass"],
+    ["green_haz", "c", 11.76, "Plastic", "Glass"],
+    ["uranium_core", "u", 15.43, "Poisonous", "Electronic", "Heavy"],
+    ["thorium_core", "u", 15.43, "Poisonous", "Electronic", "Stony"],
+    ["irradiated", "r", 8.82, "Heavy", "Hot"],
+    ["ionizing_rad", "r", 8.82, "Heavy", "Hot"],
+    ["radon_ore", "e", 2.94, "Stony", "Heavy"],
+    ["iridium_ore", "e", 2.94, "Stony", "Heavy"],
+    ["kunzite_ore", "e", 2.94, "Stony", "Heavy"],
+    ["quantum", "l", 2.20, "Plastic", "Poisonous", "Light"],
+    ["dark_matter", "l", 2.20, "Heavy", "Glass"],
+    ["unstable_neutron", "rl", 1.32, "Hot", "Hard"],
+    ["pulsing_alien", "rl", 1.32, "Organic", "Haunted"],
+    ["hazardous_barrel", "cb", 0.18, "Heavy", "Poisonous", "Poisonous"],
+    ["radium", "cb", 0.18, "Heavy", "Heavy", "Poisonous"]
+]
