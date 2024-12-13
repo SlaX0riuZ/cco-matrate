@@ -1,4 +1,4 @@
-import cubelist as cb
+import matlist as ml
 
 # OA: (0)Dye, Circuits, Plastic, Hamburger, (4)Filament, 
 # Patch, Dumbbells, Charcoal, Feather, (9)Resin, Shard, 
@@ -55,45 +55,10 @@ def return_mps(arr, rarity, legbool):
 def material_check(cubearr, rarity):
         output_arr = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
         for AB in range(len(cubearr)):
-                # ---------------------------------------------------
-                reg_mps = return_mps(cubearr, rarity, 0)
-                leg_mps = return_mps(cubearr, rarity, 1)
-                # ---------------------------------------------------
-                output_arr[0] = reg_mps * cubearr.count("Painted") # How many times this shows up
-                output_arr[1] = reg_mps * cubearr.count("Electronic")
-                output_arr[2] = reg_mps * cubearr.count("Plastic")
-                output_arr[3] = reg_mps * cubearr.count("Edible")
-                output_arr[4] = reg_mps * cubearr.count("Emits Light")
-                output_arr[5] = reg_mps * cubearr.count("Made With Fabric")
-                output_arr[6] = reg_mps * cubearr.count("Heavy")
-                output_arr[7] = reg_mps * cubearr.count("Dull")
-                output_arr[8] = reg_mps * cubearr.count("Light")
-                output_arr[9] = reg_mps * cubearr.count("Organic")
-                output_arr[10] = reg_mps * cubearr.count("Glass")
-                output_arr[11] = reg_mps * cubearr.count("Hard")
-                output_arr[12] = reg_mps * cubearr.count("Magnetic")
-                output_arr[13] = reg_mps * cubearr.count("Shiny")
-                output_arr[14] = reg_mps * cubearr.count("Haunted")
-                output_arr[15] = reg_mps * cubearr.count("Stony")
-                output_arr[16] = reg_mps * cubearr.count("Pure")
-                output_arr[17] = reg_mps * cubearr.count("Poisonous")
-                output_arr[18] = reg_mps * cubearr.count("Hot")
-                output_arr[19] = reg_mps * cubearr.count("Fresh")
-                output_arr[20] = reg_mps * cubearr.count("Makes Noise")
-                output_arr[21] = reg_mps * cubearr.count("Wet")
-                output_arr[22] = reg_mps * cubearr.count("Slimy")
-                output_arr[23] = reg_mps * cubearr.count("Bouncy")
-                output_arr[24] = reg_mps * cubearr.count("Ancient")
-                output_arr[25] = reg_mps * cubearr.count("Cold")
-                # ---------------------------------------------------
-                output_arr[26] = leg_mps * cubearr.count("Glass")
-                output_arr[27] = leg_mps * cubearr.count("Electronic")
-                output_arr[28] = leg_mps * cubearr.count("Shiny")
-                output_arr[29] = leg_mps * cubearr.count("Plastic")
-                output_arr[30] = leg_mps * cubearr.count("Hot")
-                output_arr[31] = leg_mps * cubearr.count("Haunted")
-                output_arr[32] = leg_mps * cubearr.count("Cold")
-                # ---------------------------------------------------
+                for AE in range(0, 26, 1):
+                        output_arr[AE] = return_mps(cubearr, rarity, 0) * cubearr.count(ml.mat_called_name[AE])
+                for AF in range(26, 33, 1):
+                        output_arr[AF] = return_mps(cubearr, rarity, 1) * cubearr.count(ml.mat_called_name[AF])
         return output_arr # This is the output for the cube itself.
 
 def dissect(s):
@@ -104,13 +69,43 @@ def dissect(s):
                 for AC in range(len(output_arr)):
                         if mps_output[AC] > output_arr[AC]:
                                 output_arr[AC] = round(mps_output[AC],4)
-
-        print(output_arr)
         return output_arr
 
 def mats_on_afk(minutes, series, tallym, hsbool):
-        dissect(series)
-        minutes = int(input("Planned AFK time (minutes): "))
-        if input("Spinning with Tally Mods? (y/n): ") == "y" or "Y":
-                tallym = 1 + int(input("How many boxes? (Input the number, ie '9' for +9)"))
+        moa_output = dissect(series)
+        totalspins = (minutes*6) * (1+tallym)
+        if hsbool == True:
+                totalspins *= 2
+        for AD in range(len(moa_output)):
+                moa_output[AD] *= totalspins
+                moa_output[AD] = round(moa_output[AD])
+        return moa_output
+
+def boxprint(txt):
+        print("+----------------+")
+        print(txt)
+        print("+----------------+")
+def beautify_mlist(arr, min, tmod, hsb):
+        print("+----------------+")
+        print("AFK Time: " + str(min) + " minutes...")
+        if tmod != 0:
+                print("Tally Mods: +" + str(tmod) + " per spin...")
+        if hsb == 1:
+                print("Halfspinning: Enabled...")
+        boxprint("Regular Materials")
+        notrolled = []
+        for AG in range(26):
+                if arr[AG] > 0:
+                        print(ml.mat_display_name[AG] + ": " + str(arr[AG]))
+                else:
+                        notrolled.append(ml.mat_display_name[AG])
+        boxprint("Legendary Materials")
+        for AH in range(26, 32, 1):
+                if arr[AH] > 0:
+                        print(ml.mat_display_name[AH] + ": " + str(arr[AH]))
+                else:
+                        notrolled.append(ml.mat_display_name[AH])
+        boxprint("Unrolled Materials")
+        print(notrolled)
+        print("+----------------+")
         

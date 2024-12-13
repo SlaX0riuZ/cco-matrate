@@ -42,7 +42,7 @@ series_2 = [
     ["green_mushroom", "u", 10.29, "Edible", "Organic"],
     ["blue_target", "u", 10.29, "Made with Fabric", "Painted"],
     ["burrito", "r", 4.41, "Edible", "Organic"],
-    ["yellow_eye", "r", 4.41, "Glass", "Painted"]
+    ["yellow_eye", "r", 4.41, "Glass", "Painted"],
     ["red_target", "r", 4.41, "Made with Fabric", "Painted"],
     ["purple_target", "r", 4.41, "Made with Fabric", "Electronic"],
     ["aries", "e", 2.20, "Glass"],
