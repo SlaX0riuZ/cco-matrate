@@ -124,3 +124,5 @@ def series_check(u):
                 return cb.ccc2
         elif u == 'hazardous':
                 return cb.hazardous
+        elif u == 'entropy':
+                return cb.entropy

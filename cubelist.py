@@ -116,3 +116,21 @@ hazardous = [
     ["hazardous_barrel", "cb", 0.18, "Heavy", "Poisonous", "Poisonous"],
     ["radium", "cb", 0.18, "Heavy", "Heavy", "Poisonous"]
 ]
+
+entropy = [
+    ["barcode", "c", 17.64, "Painted", "Light"],
+    ["jailed", "c", 17.64, "Made With Fabric"],
+    ["splatter_2", "u", 15.43, "Painted", "Heavy"],
+    ["houndstooth", "u", 15.43, "Painted"],
+    ["topographical", "r", 8.82, "Haunted", "Glass", "Organic"],
+    ["infested", "r", 8.82, "Haunted", "Glass", "Organic"],
+    ["vascular", "e", 4.41, "Electronic", "Emits Light", "Makes Noise"],
+    ["polka_dotted", "e", 4.41, "Plastic", "Magnetic", "Heavy"],
+    ["chalkboard", "l", 2.20, "Makes Noise", "Heavy", "Painted"],
+    ["elixir", "l", 2.20, "Glass", "Poisonous", "Wet"],
+    ["percieving", "rl", 1.32, "Haunted", "Organic", "Slimy"],
+    ["confetti", "rl", 1.32, "Light", "Plastic", "Ancient"],
+    ["racing", "cb", 0.12, "Painted", "Glass", "Plastic", "Hard"],
+    ["eclipse", "cb", 0.12, "Makes Light", "Heavy", "Hot"],
+    ["general", "cb", 0.12, "Organic", "Made With Fabric", "Makes Noise"]
+]
