@@ -4,7 +4,7 @@
 
 # TO-DO LIST
 '''
-Series 3 - 11
+Series 4 - 11
 Misfit Series
 Cool Cube Series
 Super Cube Series + Duper Cube Series
@@ -105,6 +105,72 @@ series_3 = [
     ["buddy", "cb", 0.12, "haunted", "madewithfabric"]
 ]
 
+series_4 = [
+    ["checkered", "c", 8.82, "glass", "painted"],
+    ["red", "c", 8.82, "plastic", "bouncy", "light"],
+    ["black", "c", 8.82, "shiny", "light", "pure"],
+    ["white", "c", 8.82, "shiny", "light", "pure"],
+    ["pink_goo", "u", 10.29, "slimy", "magnetic"],
+    ["blue_goo", "u", 10.29, "slimy", "poisonous"],
+    ["green_goo", "u", 10.29, "slimy", "poisonous"],
+    ["pink_crystal", "r", 4.41, "stony", "hard"],
+    ["blue_crystal", "r", 4.41, "stony", "magnetic", "hard"],
+    ["green_crystal", "r", 4.41, "stony", "shiny", "hard"],
+    ["glasscube", "r", 4.41, "glass", "pure"],
+    ["scorpio", "e", 2.94, "glass"],
+    ["sagittarius", "e", 2.94, "glass"],
+    ["pisces", "e", 2.94, "glass"],
+    ["obsidian", "l", 1.10, "hot", "glass", "hard", "pure"],
+    ["sapphire", "l", 1.10, "shiny"],
+    ["rusted", "l", 1.10, "wet", "magnetic", "dull"],
+    ["mossy_metal", "l", 1.10, "organic", "magnetic", "dull"],
+    ["distorted", "rl", 0.44, "plastic", "heavy"],
+    ["gilded", "rl", 0.44, "stony", "shiny"],
+    ["hay", "rl", 0.44, "organic", "light"],
+    ["ultra_hd", "rl", 0.44, "plastic", "shiny"],
+    ["meaty", "rl", 0.44, "organic", "edible", "fresh"],
+    ["green_button", "rl", 0.44, "makesnoise", "magnetic", "electronic", "plastic"],
+    ["durasteel", "cb", 0.12, "magnetic", "shiny", "dull"],
+    ["delusional", "cb", 0.12, "haunted", "organic", "madewithfabric"]
+    ["adamantium", "cb", 0.12, "shiny", "magnetic"]
+]
+
+series_5 = [
+
+]
+
+series_6 = [
+
+]
+
+series_7 = [
+
+]
+
+series_8 = [
+
+]
+
+series_9 = [
+
+]
+
+series_10 = [
+
+]
+
+series_11 = [
+
+]
+
+misfit = [
+
+]
+
+cool = [
+
+]
+
 emote = [
     ["ayaya", "c", 17.64, "shiny", "plastic"],
     ["kekw", "c", 17.64, "dull", "painted"],
@@ -139,6 +205,15 @@ ccc2 = [
     ["racc_2", "cb", 0.12, "organic", "wet"],
     ["cotw", "cb", 0.12, "haunted", "hard"]
 ]
+
+super_series = [
+
+]
+
+duper_series = [
+
+]
+
 hazardous = [
     ["yellow_haz", "c", 11.76, "plastic", "glass"],
     ["red_haz", "c", 11.76, "plastic", "glass"],
@@ -158,6 +233,73 @@ hazardous = [
     ["radium", "cb", 0.18, "heavy", "heavy", "poisonous"]
 ]
 
+mundane = [
+    
+]
+
+trash = [
+
+]
+
+nightmarish = [
+    ["demon", "c", 14.28, "hot", "organic"],
+    ["red_serp", "c", 14.28, "wet", "organic"],
+    ["green_serp", "c", 14.28, "wet", "organic"],
+    ["blue_serp", "c", 14.28, "wet", "organic"],
+    ["helm_fiction", "c", 14.28, "ancient", "shiny"],
+    ["helm_myth", "c", 14.28, "ancient", "shiny"],
+    ["helm_legend", "c", 14.28, "ancient", "shiny"]
+]
+
+collectors = [
+    ["blue_tc", "c", 4.41, "heavy", "stony"],
+    ["purple_tc", "c", 4.41, "heavy", "stony"],
+    ["red_tc", "c", 4.41, "heavy", "stony"],
+    ["orange_tc", "c", 4.41, "heavy", "stony"],
+    ["green_uhd_target", "c", 4.41, "madewithfabric", "dull"],
+    ["red_uhd_target", "c", 4.41, "madewithfabric", "dull"],
+    ["blue_uhd_target", "c", 4.41, "madewithfabric", "dull"],
+    ["purple_uhd_target", "c", 4.41, "madewithfabric", "dull"],
+    ["sed", "u", 15.43, "glass", "pure"],
+    ["baked_2", "u", 15.43, "organic", "dull"],
+    ["moony", "r", 8.82, "glass", "painted"],
+    ["real_bee", "r", 8.82, "organic", "makesnoise"],
+    ["margarine", "e", 4.41, "plastic", "pure"],
+    ["melting_2", "e", 4.41, "wet", "slimy"],
+    ["structurally_unsound_brick", "l", 2.20, "heavy", "hard"],
+    ["amongus", "l", 2.20, "bouncy", "glass"],
+    ["piano", "rl", 0.38, "heavy", "makesnoise"],
+    ["rooster", "rl", 0.38, "organic", "makesnoise"],
+    ["hen", "rl", 0.38, "organic", "makesnoise"],
+    ["ham", "rl", 0.38, "edible", "organic"],
+    ["amber", "rl", 0.38, "ancient", "shiny"],
+    ["safe_red_button", "rl", 0.38, "electronic", "magnetic", "glass"],
+    ["safe_green_button", "rl", 0.38, "electronic", "magnetic", "glass"],
+    ["pickle_jar", "cb", 0.09, "heavy", "edible", "wet"],
+    ["receipt", "cb", 0.09, "madewithfabric", "heavy"],
+    ["monkey_maybe", "cb", 0.09, "organic", "wet"],
+    ["rusted_adamantite", "cb", 0.09, "heavy", "wet"]
+]
+
+ccc3 = [
+    ["nagiri", "c", 14.27, "edible", "wet"],
+    ["traffic_cone_1", "c", 14.27, "plastic", "bouncy", "shiny"],
+    ["traffic_cone_2", "c", 14.27, "plastic", "bouncy", "shiny"],
+    ["bored_guy", "u", 18.73, "dull", "organic"],
+    ["ballot", "u", 18.73, "heavy", "dull"],
+    ["neapolitan", "e", 3.57, "edible", "cold", "ancient"],
+    ["honeycomb", "e", 3.57, "edible", "shiny", "wet"]
+    ["revolutionary", "e", 3.57, "haunted", "hard"],
+    ["garnet", "l", 2.68, "hard", "shiny", "stony"],
+    ["freon", "l", 2.68, "cold", "cold", "wet"],
+    ["vine", "rl", 1.07, "wet", "organic", "painted"],
+    ["industrial", "rl", 1.07, "dull", "heavy", "electronic"],
+    ["draft", "rl", 1.07, "edible", "glass", "wet", "cold"],
+    ["polluted", "cb", 0.14, "wet", "poisonous", "slimy"],
+    ["radish", "cb", 0.14, "edible", "organic", "fresh"],
+    ["ninja", "cb", 0.14, "haunted", "madewithfabric", "organic"]
+
+]
 entropy = [
     ["barcode", "c", 17.64, "painted", "light"],
     ["jailed", "c", 17.64, "madewithfabric"],
