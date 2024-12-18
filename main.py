@@ -5,7 +5,7 @@ tmod = ""
 hsbool = ""
 
 print("+----------------+")
-print("Available Series: 'series_1', 'series_2', 'emote', 'ccc2', 'hazardous', 'entropy'")
+print("Available Series: 'series_1', 'series_2', 'series_3', 'emote', 'ccc2', 'hazardous', 'entropy'")
 print("+----------------+")
 
 spin_series = ds.series_check(input("Input the series you are spinning: "))

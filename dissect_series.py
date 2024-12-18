@@ -9,7 +9,7 @@ import cubelist as cb
 # Magma Ball, Ghastly Eye, Jotunn Shard
 
 rarity = ""
-def check_rarity(arr, p, q):
+def check_rarity(arr, p, q): # check rarity and return number
         if arr[p][q] == "c": # Checking Rarity
                 return 0
         elif arr[p][q] == "u":
@@ -28,7 +28,7 @@ def check_rarity(arr, p, q):
                 print("+-------FATAL ERROR HAS OCCURRED-------+")
                 raise ValueError("Improper rarity at cube: " + str(arr[p][0])) # Fucked up!!
 
-def return_mps(arr, rarity, legbool):
+def return_mps(arr, rarity, legbool): # return mat chance from array input
         if legbool == False: # Return regular materials (ie Plastics)
                 if rarity == 0:
                         return(arr[2]/100) * 0.26 # Mats per Spin
@@ -56,7 +56,7 @@ def return_mps(arr, rarity, legbool):
                 else:
                         return 0 # failsafe
 
-def material_check(cubearr, rarity):
+def material_check(cubearr, rarity): # check materials of cubes from array
         output_arr = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
         for AB in range(len(cubearr)):
                 for AE in range(0, 26, 1):
@@ -65,7 +65,7 @@ def material_check(cubearr, rarity):
                         output_arr[AF] = return_mps(cubearr, rarity, 1) * cubearr.count(ml.mat_called_name[AF])
         return output_arr # This is the output for the cube itself.
 
-def dissect(s):
+def dissect(s): # dissect a series from input
         output_arr = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
         for AA in range(len(s)):
                 rarity = check_rarity(s, AA, 1) # Tested, this works as intended!
@@ -75,7 +75,7 @@ def dissect(s):
                                 output_arr[AC] = round(mps_output[AC],4)
         return output_arr
 
-def mats_on_afk(minutes, series, tallym, hsbool):
+def mats_on_afk(minutes, series, tallym, hsbool): # check mats on afk
         moa_output = dissect(series)
         totalspins = (minutes*6) * (1+tallym)
         if hsbool == True:
@@ -85,11 +85,12 @@ def mats_on_afk(minutes, series, tallym, hsbool):
                 moa_output[AD] = round(moa_output[AD])
         return moa_output
 
-def boxprint(txt):
+def boxprint(txt): # prints something in a neat box
         print("+----------------+")
         print(txt)
         print("+----------------+")
-def beautify_mlist(arr, min, tmod, hsb):
+
+def beautify_mlist(arr, min, tmod, hsb): # essentially the end print result
         print("+----------------+")
         print("AFK Time: " + str(min) + " minutes...")
         if tmod != 0:
@@ -113,11 +114,13 @@ def beautify_mlist(arr, min, tmod, hsb):
         print(notrolled)
         print("+----------------+")
 
-def series_check(u):
+def series_check(u): # big series check function (sadly, can't just prepend "cb." to it and return variable. unless im stupid. im probably stupid.)
         if u == 'series_1':
                 return cb.series_1
         elif u == 'series_2':
                 return cb.series_2
+        elif u == 'series_3':
+                return cb.series_3
         elif u == 'emote':
                 return cb.emote
         elif u == 'ccc2':
@@ -126,3 +129,4 @@ def series_check(u):
                 return cb.hazardous
         elif u == 'entropy':
                 return cb.entropy
+        
