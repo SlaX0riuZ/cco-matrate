@@ -4,15 +4,12 @@
 
 # TO-DO LIST
 '''
-Series 4 - 11
+Series 6 - 11
 Misfit Series
 Cool Cube Series
 Super Cube Series + Duper Cube Series
 Mundane Series
 Trash Series
-Nightmarish
-Collector's Collection
-CCC3
 '''
 
 series_1 = [
@@ -93,7 +90,7 @@ series_3 = [
     ["blue_galaxy", "l", 1.10, "glass", "cold", "pure"],
     ["flamesteel", "l", 1.10, "hot", "magnetic"],
     ["yellow_galaxy", "l", 1.10, "glass", "pure"],
-    ["baked_potato", "l", 1.10, "organic", "edible"]
+    ["baked_potato", "l", 1.10, "organic", "edible"],
     ["red_button", "rl", 0.44, "hot", "magnetic", "electronic", "plastic"],
     ["blue_button", "rl", 0.44, "makesnoise", "magnetic", "electronic", "plastic"],
     ["configurum", "rl", 0.44, "heavy", "cold"],
@@ -131,16 +128,67 @@ series_4 = [
     ["meaty", "rl", 0.44, "organic", "edible", "fresh"],
     ["green_button", "rl", 0.44, "makesnoise", "magnetic", "electronic", "plastic"],
     ["durasteel", "cb", 0.12, "magnetic", "shiny", "dull"],
-    ["delusional", "cb", 0.12, "haunted", "organic", "madewithfabric"]
+    ["delusional", "cb", 0.12, "haunted", "organic", "madewithfabric"],
     ["adamantium", "cb", 0.12, "shiny", "magnetic"]
 ]
 
 series_5 = [
-
+    ["purple", "c", 11.76, "plastic", "light"],
+    ["green", "c", 11.76, "plastic", "shiny", "light", "pure"],
+    ["blue", "c", 11.76, "plastic", "light"],
+    ["pink_mushroom", "u", 10.29, "poisonous", "organic"],
+    ["pink_eye", "u", 10.29, "glass", "painted"],
+    ["red_goo", "u", 10.29, "slimy", "hot"],
+    ["aquarium", "r", 4.41, "wet", "organic", "glass"],
+    ["ghostly", "r", 4.41, "haunted", "plastic"],
+    ["rocky", "r", 4.41, "stony", "hard"],
+    ["red_crystal", "r", 4.41, "stony", "hot", "hard"],
+    ["virgo", "e", 4.41, "pure"],
+    ["taurus", "e", 4.41, "pure"],
+    ["valentines", "l", 1.10, "haunted", "makesnoise"],
+    ["olive", "l", 1.10, "slimy", "edible"],
+    ["corny", "l", 1.10, "organic", "haunted"],
+    ["arcade", "l", 1.10, "electronic", "magnetic"],
+    ["overpriced", "rl", 0.44, "madewithfabric", "shiny"],
+    ["melting", "rl", 0.44, "haunted", "organic", "makesnoise"],
+    ["tabby", "rl", 0.44, "organic", "makesnoise"],
+    ["upsidedown", "rl", 0.44, "plastic", "shiny"],
+    ["edgeless", "rl", 0.44, "plastic", "shiny"],
+    ["foursided", "rl", 0.44, "plastic", "shiny"],
+    ["cowardly", "cb", 0.07, "haunted", "ancient", "stony"],
+    ["terrarium", "cb", 0.07, "glass", "wet", "organic"],
+    ["deathly", "cb", 0.07, "haunted", "pure"],
+    ["color_wheel", "cb", 0.07, "emitslight", "painted"],
+    ["neonoir", "cb", 0.07, "magnetic", "emitslight", "heavy"]
 ]
 
 series_6 = [
-
+    ["green_striped", "c", 11.76, "plastic", "painted"],
+    ["blue_striped", "c", 11.76, "plastic", "painted"],
+    ["saltine", "c", 11.76, "edible", "dull"],
+    ["red_wireframe", "u", 10.29, "plastic", "hot"],
+    ["green_wireframe", "u", 10.29, "plastic", "shiny"],
+    ["purple_mushroom", "u", 10.29, "organic", "edible"],
+    ["really_big", "r", 4.41, "heavy", "dull"],
+    ["red_block", "r", 4.41, "plastic", "heavy"],
+    ["blue_block", "r", 4.41, "plastic", "heavy"],
+    ["pink_block", "r", 4.41, "plastic", "heavy"],
+    ["brick", "e", 2.94, "stony", "dull"],
+    ["alien_grass", "e", 2.94, "organic", "painted"],
+    ["demonsteel", "e", 2.94, "heavy", "hard"],
+    ["watching", "l", 1.10, "glass", "emitslight"],
+    ["forwardfacing", "l", 1.10, "plastic", "shiny"],
+    ["battery", "l", 1.10, "magnetic", "electronic"],
+    ["dragonglass", "l", 1.10, "shiny", "hot"],
+    ["chromatic_2", "rl", 0.44, "shiny", "stony"],
+    ["chromatic_1", "rl", 0.44, "shiny", "stony"],
+    ["staring", "rl", 0.44, "haunted", "heavy"],
+    ["popcorn", "rl", 0.44, "edible", "fresh"],
+    ["ls_cube", "rl", 0.44, "haunted", "makesnoise"],
+    ["missing", "rl", 0.44, "heavy", "hard"],
+    ["synthesizing", "cb", 0.12, "makesnoise", "heavy", "magnetic"],
+    ["anodized", "cb", 0.12, "magnetic", "shiny"],
+    ["cardboard_box", "cb", 0.12, "glass", "shiny", "heavy"]
 ]
 
 series_7 = [
@@ -288,7 +336,7 @@ ccc3 = [
     ["bored_guy", "u", 18.73, "dull", "organic"],
     ["ballot", "u", 18.73, "heavy", "dull"],
     ["neapolitan", "e", 3.57, "edible", "cold", "ancient"],
-    ["honeycomb", "e", 3.57, "edible", "shiny", "wet"]
+    ["honeycomb", "e", 3.57, "edible", "shiny", "wet"],
     ["revolutionary", "e", 3.57, "haunted", "hard"],
     ["garnet", "l", 2.68, "hard", "shiny", "stony"],
     ["freon", "l", 2.68, "cold", "cold", "wet"],
