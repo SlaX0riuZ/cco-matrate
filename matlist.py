@@ -5,6 +5,9 @@
 # Ice, Crystalline Shard, Strange Capacitor, Glint, (29)Cellulose, 
 # Magma Ball, Ghastly Eye, Jotunn Shard
 
+# Unreal Chance: 1/858k
+# Divslat Chance: 1/2250
+# Exotic Chance: 1/100k
 mat_called_name = [
     "painted",
     "electronic",

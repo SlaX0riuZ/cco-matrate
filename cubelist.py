@@ -278,7 +278,33 @@ series_9 = [
 ]
 
 series_10 = [
-
+    ["blue_bubble", "c", 11.76, "wet", "bouncy", "light"],
+    ["yellow_pill", "c", 11.76, "stony", "light"],
+    ["purple_pill", "c", 11.76, "organic", "light"],
+    ["green_crumbling", "u", 10.29, "stony", "ancient"],
+    ["blue_crumbling", "u", 10.29, "stony", "ancient"],
+    ["landmass", "u", 10.29, "wet", "painted"],
+    ["college_ruled", "r", 4.41, "organic", "light"],
+    ["plum", "r", 4.41, "edible", "organic"],
+    ["heyapple", "r", 4.41, "edible", "organic"],
+    ["pink_tiles", "r", 4.41, "shiny", "glass"],
+    ["fire_gem", "e", 2.20, "hot", "shiny", "hard"],
+    ["vaporwave", "e", 2.20, "makesnoise", "emitslight"],
+    ["yellow_marble", "e", 2.20, "stony", "shiny"],
+    ["blue_marble", "e", 2.20, "stony", "wet", "hard"],
+    ["dusk", "l", 1.10, "glass", "painted"],
+    ["tea", "l", 1.10, "magnetic", "wet", "painted"],
+    ["splatter", "l", 1.10, "wet", "painted"],
+    ["splatter^2", "l", 1.10, "wet", "painted"],
+    ["clock", "rl", 0.44, "electronic", "plastic", "glass"],
+    ["torn_polaroid", "rl", 0.44, "organic", "light", "dull"],
+    ["watamelon", "rl", 0.44, "edible", "wet", "organic"],
+    ["racc", "rl", 0.44, "organic", "dull"],
+    ["bnuuy", "rl", 0.44, "organic", "pure"],
+    ["hoosky", "rl", 0.44, "organic", "pure"],
+    ["frog", "cb", 0.12, "slimy", "organic", "wet", "makesnoise"],
+    ["melting_green", "cb", 0.12, "wet", "slimy", "plastic"],
+    ["red_core", "cb", 0.12, "magnetic", "electronic", "heavy"]
 ]
 
 series_11 = [
