@@ -192,15 +192,89 @@ series_6 = [
 ]
 
 series_7 = [
-
+    ["purple_striped", "c", 11.76, "plastic", "painted"],
+    ["pink_striped", "c", 11.76, "plastic", "painted"],
+    ["orange_wireframe", "u", 10.29, "plastic", "shiny", "light"],
+    ["purple_wireframe", "u", 10.29, "plastic", "light"],
+    ["pink_wireframe", "u", 10.29, "plastic", "madewithfabric", "light"],
+    ["green_fabric", "r", 4.41, "madewithfabric", "dull"],
+    ["blue_fabric", "r", 4.41, "madewithfabric", "dull"],
+    ["mountainous", "r", 4.41, "glass", "painted"],
+    ["sunny", "r", 4.41, "glass", "painted"],
+    ["pink_ice", "e", 2.94, "cold", "edible", "fresh"],
+    ["ice", "e", 2.94, "cold", "edible", "pure", "fresh"],
+    ["heywatson_cinderblock", "e", 2.94, "stony", "dull"],
+    ["makeyourself_magnetic", "l", 1.10, "organic", "magnetic", "dull"],
+    ["goopy_exploits", "l", 1.10, "organic", "slimy", "dull"],
+    ["lead_paint", "l", 1.10, "poisonous", "heavy", "painted"],
+    ["refracting", "l", 1.10, "emitslight", "magnetic"],
+    ["pink_shoji", "rl", 0.44, "organic", "painted", "light"],
+    ["red_shoji", "rl", 0.44, "organic", "painted", "light"],
+    ["blue_shoji", "rl", 0.44, "organic", "painted", "light"],
+    ["ocean_opal", "rl", 0.44, "shiny", "hard"],
+    ["cerulean_opal", "rl", 0.44, "shiny", "hard"],
+    ["polyphemus", "cb", 0.12, "wet", "ancient", "organic", "makesnoise"],
+    ["working", "cb", 0.12, "organic", "wet", "dull"],
+    ["shimmering", "cb", 0.12, "shiny", "bright"]
 ]
 
 series_8 = [
-
+    ["yellow_striped", "c", 11.76, "plastic", "painted"],
+    ["white_goo", "c", 11.76, "slimy"],
+    ["red_striped", "c", 11.76, "plastic", "painted"],
+    ["blue_jumble", "u", 10.29, "plastic", "light"],
+    ["child_safe", "u", 10.29, "bouncy", "plastic", "light"],
+    ["blue_wireframe", "u", 10.29, "plastic", "cold", "light"],
+    ["petrified_wood_1", "r", 4.41, "organic", "ancient", "dull"],
+    ["petrified_wood_2", "r", 4.41, "organic", "ancient", "dull"],
+    ["red_fabric", "r", 4.41, "madewithfabric", "dull"],
+    ["pink_fabric", "r", 4.41, "madewithfabric", "dull"],
+    ["ducky", "e", 2.94, "wet", "bouncy"],
+    ["green_ice", "e", 2.94, "cold", "organic"],
+    ["red_ice", "e", 2.94, "cold", "organic", "fresh"],
+    ["pandoras", "l", 1.10, "heavy", "shiny", "painted"],
+    ["crimson", "l", 1.10, "heavy", "painted"],
+    ["velvet", "l", 1.10, "shiny", "plastic"],
+    ["cubeshining", "l", 1.10, "organic", "shiny"],
+    ["dog", "rl", 0.44, "organic", "makesnoise"],
+    ["oldfashionedtv", "rl", 0.44, "electronic", "glass"],
+    ["autumn", "rl", 0.44, "organic", "dull"],
+    ["clover", "rl", 0.44, "organic", "wet", "fresh"],
+    ["terminal", "rl", 0.44, "electronic", "heavy"],
+    ["purple_shoji", "rl", 0.44, "organic", "light"],
+    ["teensy", "cb", 0.12, "plastic", "shiny", "light"],
+    ["threecubes", "cb", 0.12, "haunted", "plastic"],
+    ["cautionary", "cb", 0.12, "plastic", "shiny"]
 ]
 
 series_9 = [
-
+    ["blue_pill", "c", 11.76, "plastic", "light"],
+    ["red_pill", "c", 11.76, "hot", "light"],
+    ["cyanide_real", "c", 11.76, "poisonous", "light"],
+    ["pink_jumble", "u", 10.29, "plastic", "light"],
+    ["green_jumble", "u", 10.29, "plastic", "light"],
+    ["red_jumble", "u", 10.29, "plastic", "light"],
+    ["green_tiles", "r", 4.41, "shiny", "glass"],
+    ["blue_tiles", "r", 4.41, "shiny", "glass"],
+    ["petrified_wood_3", "r", 4.41, "organic", "ancient", "dull"],
+    ["petrified_wood_4", "r", 4.41, "organic", "ancient", "dull"],
+    ["blue_marble", "e", 2.20, "stony", "wet", "hard"],
+    ["is_this_also_cyanide", "e", 2.20, "stony", "poisonous", "hard"],
+    ["red_marble", "e", 2.20, "stony", "hot", "hard"],
+    ["petroleum", "e", 2.20, "plastic", "poisonous", "dull"],
+    ["splatter", "l", 1.10, "wet", "painted"],
+    ["horus_right", "l", 1.10, "shiny", "stony"],
+    ["horus_left", "l", 1.10, "shiny", "stony"],
+    ["meteorite", "l", 1.10, "stony", "magnetic", "pure"],
+    ["pond", "rl", 0.44, "organic", "wet"],
+    ["ballin", "rl", 0.44, "shiny", "heavy"],
+    ["bear", "rl", 0.44, "organic", "makesnoise"],
+    ["apple", "rl", 0.44, "organic", "edible", "fresh"],
+    ["tp", "rl", 0.44, "haunted", "fresh"],
+    ["dog_again", "rl", 0.44, "organic", "makesnoise"],
+    ["core", "cb", 0.12, "magnetic", "electronic", "heavy"],
+    ["older", "cb", 0.12, "ancient", "shiny"],
+    ["banded", "cb", 0.12, "glass", "shiny"]
 ]
 
 series_10 = [

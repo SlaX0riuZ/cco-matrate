@@ -127,21 +127,33 @@ def beautify_mlist(arr, min, tmod, hsb): # essentially the end print result
         print("+----------------+")
 
 def series_check(u): # big series check function (sadly, can't just prepend "cb." to it and return variable. unless im stupid. im probably stupid.)
-        if u == 'series_1':
+        if u == '1':
                 return cb.series_1
-        elif u == 'series_2':
+        elif u == '2':
                 return cb.series_2
-        elif u == 'series_3':
+        elif u == '3':
                 return cb.series_3
-        elif u == 'series_4':
+        elif u == '4':
                 return cb.series_4
-        elif u == 'series_5':
+        elif u == '5':
                 return cb.series_5
+        if u == '6':
+                return cb.series_6
+        elif u == '7':
+                return cb.series_7
+        elif u == '8':
+                return cb.series_8
+        elif u == '9':
+                return cb.series_9
+        elif u == '10':
+                return cb.series_10
+        elif u == '11':
+                return cb.series_11
         elif u == 'emote':
                 return cb.emote
         elif u == 'ccc2':
                 return cb.ccc2
-        elif u == 'hazardous':
+        elif u == 'haz':
                 return cb.hazardous
         elif u == 'entropy':
                 return cb.entropy
