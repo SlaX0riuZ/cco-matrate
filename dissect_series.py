@@ -105,12 +105,16 @@ def mats_on_afk(minutes, series, tallym, hsbool): # check mats on afk
         return moa_output
 
 def beautify_mlist(arr, min, tmod, hsb): # essentially the end print result
+        chance_tcheck = 1
         print("+----------------+")
         print("AFK Time: " + str(min) + " minutes...")
         if tmod != 0:
                 print("Tally Mods: +" + str(tmod) + " per spin...")
+                chance_tcheck = 1 + tmod
+        tspins = (min*6)*(chance_tcheck)
         if hsb == 1:
                 print("Halfspinning: Enabled...")
+                tspins = tspins * 2
         boxprint("Regular Materials")
         notrolled = []
         for AG in range(26):
@@ -126,7 +130,15 @@ def beautify_mlist(arr, min, tmod, hsb): # essentially the end print result
                         notrolled.append(ml.mat_display_name[AH])
         boxprint("Unrolled Materials")
         print(notrolled)
+        boxprint("Special Chances")
+        e_ch = 1-((0.99999)**tspins)
+        u_ch = 1-((0.9999988345)**tspins)
+        ds_ch = 1-((0.99956)**tspins)
+        print("Exotic %: " + str(round(e_ch*100,3)) + "%")
+        print("Unreal %: " + str(round(u_ch*100,3)) + "%")
+        print("Divine/Slated %: " + str(round(ds_ch*100,3)) + "%")
         print("+----------------+")
+        
 
 def series_check(u): # big series check function (sadly, can't just prepend "cb." to it and return variable. unless im stupid. im probably stupid.)
         if u == '1':

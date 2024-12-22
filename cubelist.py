@@ -2,16 +2,6 @@
 
 # Discounting Gold+ since chance is too small to matter.
 
-# TO-DO LIST
-'''
-Series 6 - 11
-Misfit Series
-Cool Cube Series
-Super Cube Series + Duper Cube Series
-Mundane Series
-Trash Series
-'''
-
 series_1 = [
     ["blue_camo", "c", 11.76, "plastic", "painted"],
     ["red_camo", "c", 11.76, "plastic", "painted"],
