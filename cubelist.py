@@ -308,11 +308,63 @@ series_10 = [
 ]
 
 series_11 = [
-
+    ["lame", "c", 11.76, "plastic", "dull"],
+    ["pink_bubble", "c", 11.76, "wet", "bouncy", "light"],
+    ["green_bubble", "c", 11.76, "wet", "bouncy", "light"],
+    ["pink_flower", "u", 10.29, "organic", "light"],
+    ["blue_flower", "u", 10.29, "organic", "light"],
+    ["yellow_crumbling", "u", 10.29, "stony", "ancient"],
+    ["fries", "r", 4.41, "edible", "poisonous"],
+    ["burger", "r", 4.41, "edible", "organic"],
+    ["pomegranate", "r", 4.41, "edible", "organic"],
+    ["hitbox", "r", 4.41, "heavy", "plastic"],
+    ["aerogel", "e", 2.20, "shiny", "pure"],
+    ["focused", "e", 2.20, "organic", "dull"],
+    ["oceano", "e", 2.20, "shiny", "plastic", "heavy"],
+    ["fire_gem", "e", 2.20, "hot", "shiny", "hard"],
+    ["shunned", "l", 1.10, "haunted", "glass"],
+    ["worshipped", "l", 1.10, "haunted", "glass"],
+    ["neglected", "l", 1.10, "haunted", "glass"],
+    ["retro", "l", 1.10, "glass", "shiny"],
+    ["red_slime", "rl", 0.44, "bouncy", "wet", "slimy"],
+    ["pink_slime", "rl", 0.44, "bouncy", "wet", "slimy"],
+    ["green_slime", "rl", 0.44, "bouncy", "wet", "slimy"],
+    ["blue_slime", "rl", 0.44, "bouncy", "wet", "slimy"],
+    ["barn", "rl", 0.44, "organic", "dull", "heavy"],
+    ["mangokitten_without_the_kitten", "rl", 0.44, "organic", "edible"],
+    ["looking", "cb", 0.12, "electronic", "heavy", "magnetic"],
+    ["turtle", "cb", 0.12, "wet", "organic"],
+    ["beach", "cb", 0.12, "hot", "wet"]
 ]
 
 misfit = [
-
+    ["green_foliage", "c", 8.82, "organic", "wet"],
+    ["red_foliage", "c", 8.82, "organic", "wet"],
+    ["blue_foliage", "c", 8.82, "organic", "wet"],
+    ["ultra_lame", "c", 8.82, "plastic", "dull"],
+    ["pink_pastel", "u", 7.72, "wet", "dull"],
+    ["blue_pastel", "u", 7.72, "wet", "dull"],
+    ["purple_flower", "u", 7.72, "organic", "light"],
+    ["orange_flower", "u", 7.72, "organic", "light"],
+    ["green_cup", "r", 4.41, "stony", "wet"],
+    ["blue_cup", "r", 4.41, "stony", "wet"],
+    ["soft_drink", "r", 4.41, "plastic", "wet"],
+    ["hot_dog", "r", 4.41, "edible", "dull"],
+    ["angry", "e", 2.94, "hot", "haunted"],
+    ["honey", "e", 2.94, "edible", "organic"],
+    ["magatsu", "e", 2.94, "makesnoise", "pure"],
+    ["lapis", "l", 1.10, "stony", "heavy"],
+    ["monkey", "l", 1.10, "organic", "makesnoise"],
+    ["paranoid", "l", 1.10, "haunted", "pure"],
+    ["log", "l", 1.10, "heavy", "organic"],
+    ["interrobang", "rl", 0.66, "glass", "fresh"],
+    ["weed", "rl", 0.66, "hot", "cold", "organic", "wet"],
+    ["soup", "rl", 0.66, "magnetic", "edible", "wet"],
+    ["yellow_slime", "rl", 0.66, "bouncy", "wet", "slimy"],
+    ["bomb_has_been_planted", "cb", 0.09, "plastic", "electronic"],
+    ["lunchbox", "cb", 0.09, "magnetic", "shiny"],
+    ["cherry", "cb", 0.09, "edible", "organic", "shiny"],
+    ["co0b_cyoob", "cb", 0.09, "stony", "ancient", "haunted"]
 ]
 
 cool = [
