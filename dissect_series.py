@@ -16,28 +16,30 @@ def boxprint(txt): # prints something in a neat box
         print("+----------------+")
 
 def check_rarity(arr, p, q): # check rarity and return number SINGLE CUBE ARRAY
-        if arr[p][q] == "c": # Checking Rarity
+        if arr[p][q] == "c": # common rarity
                 return 0
-        elif arr[p][q] == "u":
+        elif arr[p][q] == "u": # uncommon rarity
                 return 1
-        elif arr[p][q] == "r":
+        elif arr[p][q] == "r": # rare rarity
                 return 2
-        elif arr[p][q] == "e":
+        elif arr[p][q] == "e": # epic rarity
                 return 3
-        elif arr[p][q] == "l":
+        elif arr[p][q] == "l": # legendary rarity
                 return 4
-        elif arr[p][q] == "rl":
+        elif arr[p][q] == "rl": # relic rarity
                 return 5
-        elif arr[p][q] == "cb":
+        elif arr[p][q] == "cb": # cubic rarity
                 return 6
+        elif arr[p][q] == "sp": # special rarity
+                return 10
         else:
                 print("+-------FATAL ERROR HAS OCCURRED-------+")
                 raise ValueError("Improper rarity at cube: " + str(arr[p][0])) # Fucked up!!
 
 def return_mps(arr, rarity, legbool): # return mat chance from array input, SINGLE CUBE ARRAY
         if legbool == False: # Return regular materials (ie Plastics)
-                if rarity == 0:
-                        return(arr[2]/100) * 0.26 # Mats per Spin
+                if rarity == 0 or rarity == 10:
+                        return(arr[2]/100) * 0.26 # Mats per Spin (common and special have exact same...)
                 elif rarity == 1:
                         return (arr[2]/100) * 0.613
                 elif rarity == 2:
@@ -60,7 +62,7 @@ def return_mps(arr, rarity, legbool): # return mat chance from array input, SING
                 elif rarity == 6:
                         return (arr[2]/100) * 6
                 else:
-                        return 0 # failsafe
+                        return 0 # failsafe; special also doesnt give leg
 
 def material_check(seriesarr, rarity): # check materials of cubes from array
         output_arr = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
@@ -149,12 +151,30 @@ def series_check(u): # big series check function (sadly, can't just prepend "cb.
                 return cb.series_10
         elif u == '11':
                 return cb.series_11
+        elif u == 'misfit':
+                return cb.misfit
+        elif u == 'cool':
+                return cb.cool
         elif u == 'emote':
                 return cb.emote
         elif u == 'ccc2':
                 return cb.ccc2
+        elif u == 'character':
+                return cb.character
+        elif u == 'super':
+                return cb.super_series
+        elif u == 'duper':
+                return cb.duper_series
         elif u == 'haz':
                 return cb.hazardous
+        elif u == 'mundane':
+                return cb.mundane
+        elif u == 'trash':
+                return cb.trash
+        elif u == 'collectors':
+                return cb.collectors
+        elif u == 'ccc3':
+                return cb.ccc3
         elif u == 'entropy':
                 return cb.entropy
         

@@ -215,7 +215,7 @@ series_7 = [
     ["cerulean_opal", "rl", 0.44, "shiny", "hard"],
     ["polyphemus", "cb", 0.12, "wet", "ancient", "organic", "makesnoise"],
     ["working", "cb", 0.12, "organic", "wet", "dull"],
-    ["shimmering", "cb", 0.12, "shiny", "bright"]
+    ["shimmering", "cb", 0.12, "shiny", "emitslight"]
 ]
 
 series_8 = [
@@ -368,7 +368,33 @@ misfit = [
 ]
 
 cool = [
-
+    ["green_glow_stick", "c", 8.82, "plastic", "emitslight"],
+    ["red_glow_stick", "c", 8.82, "plastic", "emitslight"],
+    ["yellow_glow_stick", "c", 8.82, "plastic", "emitslight"],
+    ["blue_glow_stick", "c", 8.82, "plastic", "emitslight"],
+    ["red_pc", "u", 7.72, "shiny", "heavy", "painted"],
+    ["blue_pc", "u", 7.72, "shiny", "heavy", "painted"],
+    ["red_pastel", "u", 7.72, "wet", "dull"],
+    ["green_pastel", "u", 7.72, "wet", "dull"],
+    ["chocolate", "r", 5.88, "edible", "organic"],
+    ["red_cup", "r", 5.88, "stony", "wet"],
+    ["yellow_cup", "r", 5.58, "stony", "wet"],
+    ["beef", "e", 2.20, "organic", "edible"],
+    ["worried", "e", 2.20, "haunted", "dull"],
+    ["contented", "e", 2.20, "haunted", "dull"],
+    ["calm", "e", 2.20, "haunted", "dull"],
+    ["bell_pepper", "l", 1.10, "edible", "fresh"],
+    ["shale", "l", 1.10, "stony", "heavy"],
+    ["serpentine", "l", 1.10, "stony", "heavy"],
+    ["rhyolite", "l", 1.10, "stony", "heavy"],
+    ["loading", "rl", 0.66, "heavy", "electronic"],
+    ["orange", "rl", 0.66, "organic", "edible"],
+    ["turf", "rl", 0.66, "plastic", "dull"],
+    ["pathing", "rl", 0.66, "electronic", "magnetic", "heavy"],
+    ["mini_mino", "cb", 0.09, "edible", "organic"],
+    ["cubitos", "cb", 0.09, "plastic", "poisonous", "fresh"],
+    ["cleaners", "cb", 0.09, "ancient"],
+    ["shrub", "cb", 0.09, "organic", "wet"]
 ]
 
 emote = [
@@ -406,12 +432,71 @@ ccc2 = [
     ["cotw", "cb", 0.12, "haunted", "hard"]
 ]
 
-super_series = [
+character = [
+    ["not_inputting_every_letter", "sp", 100, "glass", "plastic"]
+]
 
+super_series = [
+    ["blue_alien", "c", 11.76, "organic", "light"],
+    ["yellow_donut", "c", 11.76, "edible", "organic", "fresh"],
+    ["red_donut", "c", 11.76, "edible", "organic", "fresh"],
+    ["puzzle", "u", 6.17, "plastic", "dull"],
+    ["pencil", "u", 6.17, "organic", "dull"],
+    ["waffle", "u", 6.17, "edible", "plastic"],
+    ["forest_floor", "u", 6.17, "wet", "organic"],
+    ["white_table", "u", 6.17, "heavy", "dull"],
+    ["bean_can", "r", 3.53, "edible", "wet", "poisonous"],
+    ["cuben_dew", "r", 3.53, "edible", "wet"],
+    ["cuba_cola", "r", 3.53, "edible", "wet"],
+    ["lemon", "r", 3.53, "organic", "edible"],
+    ["cloudy", "r", 3.53, "glass", "painted"],
+    ["tofu", "e", 1.76, "edible", "dull", "pure"],
+    ["pills", "e", 1.76, "poisonous", "light", "plastic"],
+    ["peanutbutter", "e", 1.76, "organic", "edible", "glass"],
+    ["jam", "e", 1.76, "organic", "edible", "poisonous"],
+    ["nuke", "e", 1.76, "hot", "hot", "hot", "emitslight"],
+    ["uriel", "l", 1.10, "organic", "pure"],
+    ["gabriel", "l", 1.10, "organic", "pure"],
+    ["cubehub", "l", 1.10, "heavy", "glass"],
+    ["drugged", "l", 1.10, "edible", "dull", "poisonous"],
+    ["k_shark", "rl", 0.44, "wet", "organic"],
+    ["rose", "rl", 0.44, "glass", "plastic"],
+    ["something", "rl", 0.44, "heavy", "hard"],
+    ["polar_bear", "rl", 0.44, "organic", "pure"],
+    ["snow_fox", "rl", 0.44, "organic", "pure"],
+    ["panda", "rl", 0.44, "organic", "pure"],
+    ["sponge", "cb", 0.12, "wet", "plastic"],
+    ["butt", "cb", 0.12, "fresh", "organic", "edible"],
+    ["monocuba", "cb", 0.12, "organic", "electronic"]
 ]
 
 duper_series = [
-
+    ["red_alien", "c", 11.76, "organic", "light"],
+    ["purple_alien", "c", 11.76, "organic", "light"],
+    ["green_alien", "c", 11.76, "organic", "light"],
+    ["yellow_bulb", "u", 7.72, "emitslight", "glass"],
+    ["red_bulb", "u", 7.72, "emitslight", "glass"],
+    ["blue_bulb", "u", 7.72, "emitslight", "glass"],
+    ["qubit", "u", 7.72, "heavy", "dull"],
+    ["quark", "r", 5.88, "heavy", "dull"],
+    ["wrestling", "r", 5.88, "plastic", "heavy"],
+    ["marshmallow", "r", 5.88, "edible", "light"],
+    ["base64", "e", 2.20, "plastic", "light"],
+    ["base10", "e", 2.20, "plastic", "light"],
+    ["no", "e", 2.20, "heavy", "hard"],
+    ["deep_space", "e", 2.20, "glass", "heavy"],
+    ["luffy", "l", 1.10, "organic", "dull"],
+    ["cig_box", "l", 1.10, "hot", "light"],
+    ["grease", "l", 1.10, "wet", "pure", "fresh"],
+    ["mirror", "l", 1.10, "shiny", "glass"],
+    ["kiwi", "rl", 0.53, "edible", "organic"],
+    ["skin", "rl", 0.53, "organic", "pure"],
+    ["island", "rl", 0.53, "wet", "organic"],
+    ["mercury", "rl", 0.53, "stony", "hot"],
+    ["mars", "rl", 0.53, "stony", "cold"],
+    ["bottomless", "cb", 0.12, "heavy", "plastic"],
+    ["copycat", "cb", 0.12, "organic", "makesnoise"],
+    ["toad", "cb", 0.12, "slimy", "organic"]
 ]
 
 hazardous = [
@@ -434,11 +519,50 @@ hazardous = [
 ]
 
 mundane = [
-    
+    ["pink_ct", "c", 8.82, "heavy", "shiny"],
+    ["green_ct", "c", 8.82, "heavy", "shiny"],
+    ["blue_ct", "c", 8.82, "heavy", "shiny"],
+    ["uncolored_ct", "c", 8.82, "heavy", "shiny"], 
+    ["green_toaster", "u", 6.17, "hot", "electronic", "magnetic"],
+    ["blue_toaster", "u", 6.17, "hot", "electronic", "magnetic"],
+    ["pink_toaster", "u", 6.17, "hot", "electronic", "magnetic"],
+    ["red_toaster", "u", 6.17, "hot", "electronic", "magnetic"],
+    ["toaster", "u", 6.17, "hot", "electronic", "magnetic"],
+    ["red_drawers", "r", 5.88, "heavy", "painted", "light"],
+    ["green_drawers", "r", 5.88, "heavy", "painted", "light"],
+    ["blue_drawers", "r", 5.88, "heavy", "painted", "light"],
+    ["yellow_drawers", "e", 4.41, "heavy", "painted", "light"],
+    ["white_drawers", "e", 4.41, "heavy", "painted", "light"],
+    ["blue_otto", "l", 1.47, "bouncy", "madewithfabric"],
+    ["green_otto", "l", 1.47, "bouncy", "madewithfabric"],
+    ["otto", "l", 1.47, "bouncy", "madewithfabric"],
+    ["blue_rug", "rl", 1.32, "madewithfabric", "painted"],
+    ["red_rug", "rl", 1.32, "madewithfabric", "painted"],
+    ["cubybara", "cb", 0.09, "organic", "hard", "hard"],
+    ["fridge", "cb", 0.09, "cold", "glass", "electronic"],
+    ["wine_bottle", "cb", 0.09, "glass", "wet"],
+    ["tablet", "cb", 0.09, "electronic", "glass"]
 ]
 
 trash = [
-
+    ["red_jar", "c", 6.14, "shiny", "magnetic"],
+    ["purple_jar", "c", 6.14, "shiny", "magnetic"],
+    ["blue_jar", "c", 6.14, "shiny", "magnetic"],
+    ["green_jar", "c", 6.14, "shiny", "magnetic"],
+    ["green_bb", "c", 6.14, "shiny", "glass"],
+    ["red_bb", "c", 6.14, "shiny", "glass"],
+    ["blue_bb", "c", 6.14, "shiny", "glass"],
+    ["pink_pb", "u", 12.54, "plastic", "light", "dull"],
+    ["orange_pb", "u", 12.54, "plastic", "light", "dull"],
+    ["blue_pb", "u", 12.54, "plastic", "light", "dull"],
+    ["compacted_dust", "e", 3.58, "ancient", "dull"],
+    ["smashed_tablet", "e", 3.58, "shiny", "glass"],
+    ["twisted_metal", "e", 3.58, "magnetic", "heavy"],
+    ["plastic_ring", "l", 2.69, "plastic", "heavy"],
+    ["tire", "l", 2.69, "bouncy", "shiny"],
+    ["sewage", "rl", 1.08, "organic", "slimy"],
+    ["rotten_pepper", "rl", 1.08, "organic", "poisonous"],
+    ["rotted", "rl", 1.08, "ancient", "plastic"]
 ]
 
 nightmarish = [
