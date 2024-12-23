@@ -8,8 +8,6 @@ import cubelist as cb
 # Ice, Crystalline Shard, Strange Capacitor, Glint, (29)Cellulose, 
 # Magma Ball, Ghastly Eye, Jotunn Shard
 
-rarity = ""
-
 def boxprint(txt): # prints something in a neat box
         print("+----------------+")
         print(txt)
@@ -139,7 +137,6 @@ def beautify_mlist(arr, min, tmod, hsb): # essentially the end print result
         print("Divine/Slated %: " + str(round(ds_ch*100,3)) + "%")
         print("+----------------+")
         
-
 def series_check(u): # big series check function (sadly, can't just prepend "cb." to it and return variable. unless im stupid. im probably stupid.)
         if u == '1':
                 return cb.series_1
@@ -189,4 +186,30 @@ def series_check(u): # big series check function (sadly, can't just prepend "cb.
                 return cb.ccc3
         elif u == 'entropy':
                 return cb.entropy
-        
+
+def check_mat_position(m):
+        for Z in range(len(ml.mat_display_name)):
+                if m == ml.mat_display_name[Z]:
+                        return Z
+
+def material_optimize(m):
+        mpos = check_mat_position(m)
+        enarr = []
+        output_arr = []
+        for N in range(len(ml.series_list)):
+                try:
+                        used_s = series_check(ml.series_list[N]) # get the series into temp variable
+                except:
+                        break # get outta there
+                enarr.append([ml.series_list[N], dissect(used_s)[mpos]]) # ex. ["1", 0.0378]
+
+        while len(enarr) > 0:
+                lm = enarr[0] # assume largest is first pos
+                for S in range(len(enarr)):
+                        if enarr[S][1] > lm[1]:
+                                lm = enarr[S] # find largest number, essentially
+                output_arr.append(lm)
+                enarr.remove(lm)
+        boxprint("Rankings: ")
+        for P in range(len(output_arr)):
+                print("Rank #" + str(P) + ": " + output_arr[P][0] + " (" + str(output_arr[P][1]) + ")")
