@@ -186,6 +186,8 @@ def series_check(u): # big series check function (sadly, can't just prepend "cb.
                 return cb.ccc3
         elif u == 'entropy':
                 return cb.entropy
+        elif u == 'nolife':
+                return cb.nolife
 
 def check_mat_position(m):
         for Z in range(len(ml.mat_display_name)):

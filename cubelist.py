@@ -631,3 +631,24 @@ entropy = [
     ["eclipse", "cb", 0.12, "emitslight", "heavy", "hot"],
     ["general", "cb", 0.12, "organic", "madewithfabric", "makesnoise"]
 ]
+
+nolife = [
+    ["red_grin", "c", 11.76, "plastic", "haunted"],
+    ["green_grin", "c", 11.76, "plastic", "haunted"],
+    ["blue_grin", "c", 11.76, "plastic", "haunted"],
+    ["puffer", "u", 15.43, "wet", "organic"],
+    ["duckling", "u", 15.43, "organic"],
+    ["pear", "r", 8.82, "edible", "organic", "fresh"],
+    ["gapple", "r", 8.82, "edible", "organic", "heavy"],
+    ["r_earth", "e", 4.41, "wet", "painted"],
+    ["f_earth", "e", 4.41, "heavy", "wet"],
+    ["dancefloor", "l", 2.20, "electronic", "emitslight"],
+    ["groovin", "l", 2.20, "makesnoise", "hard"],
+    ["bp_glass", "rl", 0.44, "glass", "glass", "magnetic", "hard"],
+    ["c_haz", "rl", 0.44, "poisonous", "dull"],
+    ["irony", "rl", 0.44, "haunted", "heavy"],
+    ["darude", "rl", 0.44, "ancient", "glass"],
+    ["jail", "rl", 0.44, "heavy", "magnetic"],
+    ["franklin", "rl", 0.44, "haunted", "hard"],
+    ["combined_monolithic", "cb", 0.36, "heavy", "magnetic", "electronic"]
+]

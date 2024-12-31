@@ -104,5 +104,6 @@ series_list = [
     "trash",
     "collectors",
     "ccc3",
-    "entropy"
+    "entropy",
+    "nolife"
 ]
