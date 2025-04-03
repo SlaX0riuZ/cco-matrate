@@ -1,5 +1,6 @@
 import matlist as ml
 import cubelist as cb
+import math
 
 # OA: (0)Dye, Circuits, Plastic, Hamburger, (4)Filament, 
 # Patch, Dumbbells, Charcoal, Feather, (9)Resin, Shard, 
@@ -215,3 +216,12 @@ def material_optimize(m):
         boxprint("Rankings: ")
         for P in range(len(output_arr)):
                 print("Rank #" + str(P) + ": " + output_arr[P][0] + " (" + str(output_arr[P][1]) + ")")
+
+def rank_successor(spincount):
+        spincount = math.ceil(spincount/6)
+        tempseriespush = []
+        f = open('ranksuccessorpush.txt', 'a')
+        for seriesname in ml.series_list:
+                try:
+                        tempseriespush = mats_on_afk(spincount, series_check(seriesname), 0, 0)
+                except: print("not right code :(")
