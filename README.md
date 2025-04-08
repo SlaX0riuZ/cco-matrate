@@ -28,4 +28,4 @@ Nope. Too small of a chance versus reward-- even cubics are iffy but are just en
 
 Download the .zip file, unpack it into a folder-- upload into VSCode (make sure you have python installed as an extension on it, and have Python on your computer)
 
-Alternatively, visit [this page](https://https://docs.google.com/spreadsheets/d/12nsA3TvfzwNCWt3OxgAoRXLgUmT9i_deD4LYUAAjFe4/edit?gid=1239338661#gid=1239338661) if you're just looking for the material rates.
+Alternatively, visit [this page](bit.ly/ccomatrate) if you're just looking for the material rates.
