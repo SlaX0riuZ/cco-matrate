@@ -82,15 +82,12 @@ def dissect(s): # dissect a series from input
         output_arr = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
         for AA in range(len(s)):
                 for AJ in range(3, 12, 1):
-                        try:
-                                error_input_check(s[AA], AJ) # Checking if slax inputted thing wrongly >:(
-                        except IndexError:
-                                break # get outta the loop...
+                        try: error_input_check(s[AA], AJ) # Checking if slax inputted thing wrongly >:(
+                        except IndexError: break # get outta the loop...
                 rarity = check_rarity(s, AA, 1) # Tested, this works as intended!
                 mps_output = (material_check(s[AA], rarity))
                 for AC in range(len(output_arr)):
-                        if mps_output[AC] > output_arr[AC]:
-                                output_arr[AC] = round(mps_output[AC],4)
+                        if mps_output[AC] > output_arr[AC]: output_arr[AC] = round(mps_output[AC],4)
         return output_arr
 
 def mats_on_afk(minutes, series, tallym, hsbool): # check mats on afk
@@ -117,16 +114,12 @@ def beautify_mlist(arr, min, tmod, hsb): # essentially the end print result
         boxprint("Regular Materials")
         notrolled = []
         for AG in range(26):
-                if arr[AG] > 0:
-                        print(ml.mat_display_name[AG] + ": " + str(arr[AG]))
-                else:
-                        notrolled.append(ml.mat_display_name[AG])
+                if arr[AG] > 0: print(ml.mat_display_name[AG] + ": " + str(arr[AG]))
+                else: notrolled.append(ml.mat_display_name[AG])
         boxprint("Legendary Materials")
         for AH in range(26, 32, 1):
-                if arr[AH] > 0:
-                        print(ml.mat_display_name[AH] + ": " + str(arr[AH]))
-                else:
-                        notrolled.append(ml.mat_display_name[AH])
+                if arr[AH] > 0: print(ml.mat_display_name[AH] + ": " + str(arr[AH]))
+                else: notrolled.append(ml.mat_display_name[AH])
         boxprint("Unrolled Materials")
         print(notrolled)
         boxprint("Special Chances")
@@ -139,56 +132,31 @@ def beautify_mlist(arr, min, tmod, hsb): # essentially the end print result
         print("+----------------+")
         
 def series_check(u): # big series check function (sadly, can't just prepend "cb." to it and return variable. unless im stupid. im probably stupid.)
-        if u == '1':
-                return cb.series_1
-        elif u == '2':
-                return cb.series_2
-        elif u == '3':
-                return cb.series_3
-        elif u == '4':
-                return cb.series_4
-        elif u == '5':
-                return cb.series_5
-        if u == '6':
-                return cb.series_6
-        elif u == '7':
-                return cb.series_7
-        elif u == '8':
-                return cb.series_8
-        elif u == '9':
-                return cb.series_9
-        elif u == '10':
-                return cb.series_10
-        elif u == '11':
-                return cb.series_11
-        elif u == 'misfit':
-                return cb.misfit
-        elif u == 'cool':
-                return cb.cool
-        elif u == 'emote':
-                return cb.emote
-        elif u == 'ccc2':
-                return cb.ccc2
-        elif u == 'character':
-                return cb.character
-        elif u == 'super':
-                return cb.super_series
-        elif u == 'duper':
-                return cb.duper_series
-        elif u == 'haz':
-                return cb.hazardous
-        elif u == 'mundane':
-                return cb.mundane
-        elif u == 'trash':
-                return cb.trash
-        elif u == 'collectors':
-                return cb.collectors
-        elif u == 'ccc3':
-                return cb.ccc3
-        elif u == 'entropy':
-                return cb.entropy
-        elif u == 'nolife':
-                return cb.nolife
+        if u == '1': return cb.series_1
+        elif u == '2': return cb.series_2
+        elif u == '3': return cb.series_3
+        elif u == '4': return cb.series_4
+        elif u == '5': return cb.series_5
+        if u == '6': return cb.series_6
+        elif u == '7': return cb.series_7
+        elif u == '8': return cb.series_8
+        elif u == '9': return cb.series_9
+        elif u == '10': return cb.series_10
+        elif u == '11': return cb.series_11
+        elif u == 'misfit': return cb.misfit
+        elif u == 'cool': return cb.cool
+        elif u == 'emote': return cb.emote
+        elif u == 'ccc2': return cb.ccc2
+        elif u == 'character': return cb.character
+        elif u == 'super': return cb.super_series
+        elif u == 'duper': return cb.duper_series
+        elif u == 'haz': return cb.hazardous
+        elif u == 'mundane': return cb.mundane
+        elif u == 'trash': return cb.trash
+        elif u == 'collectors': return cb.collectors
+        elif u == 'ccc3': return cb.ccc3
+        elif u == 'entropy': return cb.entropy
+        elif u == 'nolife': return cb.nolife
 
 def check_mat_position(m):
         for Z in range(len(ml.mat_display_name)):
@@ -197,8 +165,7 @@ def check_mat_position(m):
 
 def material_optimize(m):
         mpos = check_mat_position(m)
-        enarr = []
-        output_arr = []
+        enarr, output_arr = []
         for N in range(len(ml.series_list)):
                 try:
                         used_s = series_check(ml.series_list[N]) # get the series into temp variable
@@ -217,11 +184,36 @@ def material_optimize(m):
         for P in range(len(output_arr)):
                 print("Rank #" + str(P) + ": " + output_arr[P][0] + " (" + str(output_arr[P][1]) + ")")
 
+def clear_ranks():
+        open('ranksuccessorpush.txt','w').close() # in case I need to do this manually
+
+def find_nth_overlapping(usedstring, texttofind, n): # credits to "Richard" from stack overflow for this one :)
+    start = usedstring.find(texttofind)
+    while start >= 0 and n > 1:
+        start = usedstring.find(texttofind, start+1)
+        n = n - 1
+    return start
+
 def rank_successor(spincount):
+        clear_ranks()
         spincount = math.ceil(spincount/6)
         tempseriespush = []
         f = open('ranksuccessorpush.txt', 'a')
         for seriesname in ml.series_list:
                 try:
-                        tempseriespush = mats_on_afk(spincount, series_check(seriesname), 0, 0)
+                        tempseriespush.append(mats_on_afk(spincount, series_check(seriesname), 0, 0)) # end: [[s1mat1, s1mat2,...],[s2mat1, s2mat2,...],...] rundown from series check list
                 except: print("not right code :(")
+        for ser in range(len(tempseriespush)): # this is for each series
+                for mat in range(len(tempseriespush[ser])): # this is for each material
+                        f.write(f'{ml.series_list[ser]}|{ml.mat_display_name[mat]}|{tempseriespush[ser][mat]}\n')
+
+def rank_reading(material):
+        f = open('ranksuccessorpush.txt', 'r')
+        srank, pushrank = []
+        for line in f:
+                if str(material).capitalize() in line:
+                        sepindex = line.find('|')
+                        srank.append([line[0:sepindex], line[1+find_nth_overlapping(line, '|', 2):-1]])
+        print(srank)
+
+

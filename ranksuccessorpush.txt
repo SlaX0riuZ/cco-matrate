@@ -1,0 +1,825 @@
+1|Dyes|608
+1|Circuits|608
+1|Plastics|608
+1|Hamburgers|631
+1|Filaments|422
+1|Patches|422
+1|Dumbbells|422
+1|Charcoal|422
+1|Feathers|422
+1|Resin|631
+1|Shards|608
+1|Tough Stuff|422
+1|Iron Filaments|422
+1|Polish|334
+1|Ectoplasm|0
+1|Pebbles|0
+1|Perfections|334
+1|Poison|0
+1|Ash|72
+1|New Tags|156
+1|Vibrations|0
+1|Water|0
+1|Goo|0
+1|Rubber|0
+1|Dust|0
+1|Ice|72
+1|Crystalline Shards|267
+1|Strange Capacitors|125
+1|Glint|267
+1|Cellulose|0
+1|Magma Balls|72
+1|Ghastly Eyes|0
+1|Jotuun Shards|72
+2|Dyes|631
+2|Circuits|631
+2|Plastics|306
+2|Hamburgers|631
+2|Filaments|72
+2|Patches|631
+2|Dumbbells|156
+2|Charcoal|0
+2|Feathers|306
+2|Resin|631
+2|Shards|528
+2|Tough Stuff|455
+2|Iron Filaments|156
+2|Polish|156
+2|Ectoplasm|156
+2|Pebbles|455
+2|Perfections|334
+2|Poison|0
+2|Ash|334
+2|New Tags|334
+2|Vibrations|455
+2|Water|455
+2|Goo|0
+2|Rubber|0
+2|Dust|0
+2|Ice|0
+2|Crystalline Shards|267
+2|Strange Capacitors|72
+2|Glint|125
+2|Cellulose|72
+2|Magma Balls|267
+2|Ghastly Eyes|125
+2|Jotuun Shards|0
+3|Dyes|631
+3|Circuits|156
+3|Plastics|306
+3|Hamburgers|631
+3|Filaments|0
+3|Patches|72
+3|Dumbbells|528
+3|Charcoal|528
+3|Feathers|631
+3|Resin|631
+3|Shards|631
+3|Tough Stuff|0
+3|Iron Filaments|528
+3|Polish|306
+3|Ectoplasm|72
+3|Pebbles|631
+3|Perfections|528
+3|Poison|156
+3|Ash|334
+3|New Tags|72
+3|Vibrations|156
+3|Water|156
+3|Goo|0
+3|Rubber|0
+3|Dust|0
+3|Ice|528
+3|Crystalline Shards|267
+3|Strange Capacitors|125
+3|Glint|125
+3|Cellulose|125
+3|Magma Balls|267
+3|Ghastly Eyes|72
+3|Jotuun Shards|267
+4|Dyes|229
+4|Circuits|156
+4|Plastics|229
+4|Hamburgers|156
+4|Filaments|0
+4|Patches|72
+4|Dumbbells|156
+4|Charcoal|334
+4|Feathers|229
+4|Resin|334
+4|Shards|608
+4|Tough Stuff|528
+4|Iron Filaments|631
+4|Polish|528
+4|Ectoplasm|72
+4|Pebbles|528
+4|Perfections|528
+4|Poison|631
+4|Ash|334
+4|New Tags|156
+4|Vibrations|156
+4|Water|334
+4|Goo|631
+4|Rubber|229
+4|Dust|0
+4|Ice|0
+4|Crystalline Shards|267
+4|Strange Capacitors|125
+4|Glint|267
+4|Cellulose|125
+4|Magma Balls|267
+4|Ghastly Eyes|72
+4|Jotuun Shards|0
+5|Dyes|631
+5|Circuits|334
+5|Plastics|528
+5|Hamburgers|334
+5|Filaments|42
+5|Patches|156
+5|Dumbbells|42
+5|Charcoal|0
+5|Feathers|306
+5|Resin|631
+5|Shards|631
+5|Tough Stuff|528
+5|Iron Filaments|334
+5|Polish|306
+5|Ectoplasm|528
+5|Pebbles|528
+5|Perfections|912
+5|Poison|631
+5|Ash|631
+5|New Tags|0
+5|Vibrations|334
+5|Water|528
+5|Goo|631
+5|Rubber|0
+5|Dust|42
+5|Ice|0
+5|Crystalline Shards|42
+5|Strange Capacitors|267
+5|Glint|125
+5|Cellulose|125
+5|Magma Balls|0
+5|Ghastly Eyes|267
+5|Jotuun Shards|0
+6|Dyes|608
+6|Circuits|334
+6|Plastics|631
+6|Hamburgers|631
+6|Filaments|334
+6|Patches|0
+6|Dumbbells|608
+6|Charcoal|608
+6|Feathers|0
+6|Resin|631
+6|Shards|334
+6|Tough Stuff|608
+6|Iron Filaments|334
+6|Polish|631
+6|Ectoplasm|156
+6|Pebbles|608
+6|Perfections|0
+6|Poison|0
+6|Ash|631
+6|New Tags|156
+6|Vibrations|156
+6|Water|0
+6|Goo|0
+6|Rubber|0
+6|Dust|0
+6|Ice|0
+6|Crystalline Shards|267
+6|Strange Capacitors|267
+6|Glint|267
+6|Cellulose|267
+6|Magma Balls|267
+6|Ghastly Eyes|125
+6|Jotuun Shards|0
+7|Dyes|528
+7|Circuits|0
+7|Plastics|631
+7|Hamburgers|608
+7|Filaments|334
+7|Patches|631
+7|Dumbbells|334
+7|Charcoal|608
+7|Feathers|631
+7|Resin|334
+7|Shards|528
+7|Tough Stuff|156
+7|Iron Filaments|334
+7|Polish|631
+7|Ectoplasm|0
+7|Pebbles|608
+7|Perfections|608
+7|Poison|334
+7|Ash|0
+7|New Tags|608
+7|Vibrations|72
+7|Water|72
+7|Goo|334
+7|Rubber|0
+7|Dust|72
+7|Ice|608
+7|Crystalline Shards|0
+7|Strange Capacitors|0
+7|Glint|125
+7|Cellulose|0
+7|Magma Balls|0
+7|Ghastly Eyes|0
+7|Jotuun Shards|0
+8|Dyes|334
+8|Circuits|156
+8|Plastics|631
+8|Hamburgers|0
+8|Filaments|0
+8|Patches|528
+8|Dumbbells|334
+8|Charcoal|528
+8|Feathers|631
+8|Resin|608
+8|Shards|156
+8|Tough Stuff|0
+8|Iron Filaments|0
+8|Polish|334
+8|Ectoplasm|72
+8|Pebbles|0
+8|Perfections|0
+8|Poison|0
+8|Ash|0
+8|New Tags|608
+8|Vibrations|156
+8|Water|608
+8|Goo|306
+8|Rubber|631
+8|Dust|528
+8|Ice|631
+8|Crystalline Shards|125
+8|Strange Capacitors|125
+8|Glint|267
+8|Cellulose|267
+8|Magma Balls|0
+8|Ghastly Eyes|72
+8|Jotuun Shards|0
+9|Dyes|334
+9|Circuits|72
+9|Plastics|631
+9|Hamburgers|156
+9|Filaments|0
+9|Patches|0
+9|Dumbbells|156
+9|Charcoal|528
+9|Feathers|631
+9|Resin|528
+9|Shards|528
+9|Tough Stuff|455
+9|Iron Filaments|334
+9|Polish|528
+9|Ectoplasm|156
+9|Pebbles|455
+9|Perfections|334
+9|Poison|455
+9|Ash|455
+9|New Tags|156
+9|Vibrations|156
+9|Water|455
+9|Goo|0
+9|Rubber|0
+9|Dust|528
+9|Ice|0
+9|Crystalline Shards|72
+9|Strange Capacitors|72
+9|Glint|267
+9|Cellulose|0
+9|Magma Balls|0
+9|Ghastly Eyes|125
+9|Jotuun Shards|0
+10|Dyes|631
+10|Circuits|156
+10|Plastics|156
+10|Hamburgers|528
+10|Filaments|455
+10|Patches|0
+10|Dumbbells|72
+10|Charcoal|156
+10|Feathers|528
+10|Resin|528
+10|Shards|528
+10|Tough Stuff|455
+10|Iron Filaments|334
+10|Polish|528
+10|Ectoplasm|0
+10|Pebbles|631
+10|Perfections|156
+10|Poison|0
+10|Ash|455
+10|New Tags|0
+10|Vibrations|455
+10|Water|631
+10|Goo|72
+10|Rubber|306
+10|Dust|631
+10|Ice|0
+10|Crystalline Shards|267
+10|Strange Capacitors|125
+10|Glint|0
+10|Cellulose|125
+10|Magma Balls|0
+10|Ghastly Eyes|0
+10|Jotuun Shards|0
+11|Dyes|0
+11|Circuits|72
+11|Plastics|528
+11|Hamburgers|528
+11|Filaments|0
+11|Patches|0
+11|Dumbbells|528
+11|Charcoal|455
+11|Feathers|631
+11|Resin|631
+11|Shards|334
+11|Tough Stuff|455
+11|Iron Filaments|72
+11|Polish|455
+11|Ectoplasm|334
+11|Pebbles|631
+11|Perfections|455
+11|Poison|528
+11|Ash|455
+11|New Tags|0
+11|Vibrations|0
+11|Water|306
+11|Goo|156
+11|Rubber|306
+11|Dust|631
+11|Ice|0
+11|Crystalline Shards|267
+11|Strange Capacitors|72
+11|Glint|267
+11|Cellulose|0
+11|Magma Balls|72
+11|Ghastly Eyes|267
+11|Jotuun Shards|0
+misfit|Dyes|0
+misfit|Circuits|54
+misfit|Plastics|528
+misfit|Hamburgers|608
+misfit|Filaments|0
+misfit|Patches|0
+misfit|Dumbbells|334
+misfit|Charcoal|528
+misfit|Feathers|473
+misfit|Resin|608
+misfit|Shards|234
+misfit|Tough Stuff|0
+misfit|Iron Filaments|234
+misfit|Polish|54
+misfit|Ectoplasm|608
+misfit|Pebbles|528
+misfit|Perfections|608
+misfit|Poison|0
+misfit|Ash|608
+misfit|New Tags|234
+misfit|Vibrations|608
+misfit|Water|528
+misfit|Goo|234
+misfit|Rubber|234
+misfit|Dust|54
+misfit|Ice|234
+misfit|Crystalline Shards|187
+misfit|Strange Capacitors|54
+misfit|Glint|54
+misfit|Cellulose|54
+misfit|Magma Balls|187
+misfit|Ghastly Eyes|267
+misfit|Jotuun Shards|187
+cool|Dyes|473
+cool|Circuits|234
+cool|Plastics|234
+cool|Hamburgers|703
+cool|Filaments|229
+cool|Patches|0
+cool|Dumbbells|473
+cool|Charcoal|473
+cool|Feathers|0
+cool|Resin|703
+cool|Shards|0
+cool|Tough Stuff|0
+cool|Iron Filaments|234
+cool|Polish|473
+cool|Ectoplasm|455
+cool|Pebbles|703
+cool|Perfections|0
+cool|Poison|54
+cool|Ash|0
+cool|New Tags|334
+cool|Vibrations|0
+cool|Water|703
+cool|Goo|0
+cool|Rubber|0
+cool|Dust|54
+cool|Ice|0
+cool|Crystalline Shards|0
+cool|Strange Capacitors|187
+cool|Glint|0
+cool|Cellulose|187
+cool|Magma Balls|0
+cool|Ghastly Eyes|0
+cool|Jotuun Shards|0
+emote|Dyes|946
+emote|Circuits|1055
+emote|Plastics|459
+emote|Hamburgers|0
+emote|Filaments|0
+emote|Patches|108
+emote|Dumbbells|0
+emote|Charcoal|946
+emote|Feathers|0
+emote|Resin|912
+emote|Shards|0
+emote|Tough Stuff|0
+emote|Iron Filaments|0
+emote|Polish|459
+emote|Ectoplasm|1055
+emote|Pebbles|0
+emote|Perfections|0
+emote|Poison|0
+emote|Ash|0
+emote|New Tags|669
+emote|Vibrations|946
+emote|Water|946
+emote|Goo|0
+emote|Rubber|0
+emote|Dust|0
+emote|Ice|0
+emote|Crystalline Shards|0
+emote|Strange Capacitors|0
+emote|Glint|0
+emote|Cellulose|0
+emote|Magma Balls|0
+emote|Ghastly Eyes|374
+emote|Jotuun Shards|0
+ccc2|Dyes|1055
+ccc2|Circuits|1055
+ccc2|Plastics|1892
+ccc2|Hamburgers|0
+ccc2|Filaments|669
+ccc2|Patches|0
+ccc2|Dumbbells|669
+ccc2|Charcoal|306
+ccc2|Feathers|0
+ccc2|Resin|912
+ccc2|Shards|0
+ccc2|Tough Stuff|72
+ccc2|Iron Filaments|669
+ccc2|Polish|0
+ccc2|Ectoplasm|1892
+ccc2|Pebbles|0
+ccc2|Perfections|0
+ccc2|Poison|0
+ccc2|Ash|912
+ccc2|New Tags|0
+ccc2|Vibrations|0
+ccc2|Water|72
+ccc2|Goo|912
+ccc2|Rubber|0
+ccc2|Dust|0
+ccc2|Ice|0
+ccc2|Crystalline Shards|0
+ccc2|Strange Capacitors|374
+ccc2|Glint|0
+ccc2|Cellulose|0
+ccc2|Magma Balls|0
+ccc2|Ghastly Eyes|535
+ccc2|Jotuun Shards|0
+character|Dyes|0
+character|Circuits|0
+character|Plastics|2601
+character|Hamburgers|0
+character|Filaments|0
+character|Patches|0
+character|Dumbbells|0
+character|Charcoal|0
+character|Feathers|0
+character|Resin|0
+character|Shards|2601
+character|Tough Stuff|0
+character|Iron Filaments|0
+character|Polish|0
+character|Ectoplasm|0
+character|Pebbles|0
+character|Perfections|0
+character|Poison|0
+character|Ash|0
+character|New Tags|0
+character|Vibrations|0
+character|Water|0
+character|Goo|0
+character|Rubber|0
+character|Dust|0
+character|Ice|0
+character|Crystalline Shards|0
+character|Strange Capacitors|0
+character|Glint|0
+character|Cellulose|0
+character|Magma Balls|0
+character|Ghastly Eyes|0
+character|Jotuun Shards|0
+super|Dyes|422
+super|Circuits|72
+super|Plastics|378
+super|Hamburgers|422
+super|Filaments|364
+super|Patches|0
+super|Dumbbells|378
+super|Charcoal|378
+super|Feathers|364
+super|Resin|422
+super|Shards|422
+super|Tough Stuff|156
+super|Iron Filaments|0
+super|Polish|0
+super|Ectoplasm|0
+super|Pebbles|0
+super|Perfections|364
+super|Poison|422
+super|Ash|1092
+super|New Tags|306
+super|Vibrations|0
+super|Water|422
+super|Goo|0
+super|Rubber|0
+super|Dust|0
+super|Ice|0
+super|Crystalline Shards|267
+super|Strange Capacitors|72
+super|Glint|0
+super|Cellulose|125
+super|Magma Balls|0
+super|Ghastly Eyes|0
+super|Jotuun Shards|0
+duper|Dyes|0
+duper|Circuits|0
+duper|Plastics|703
+duper|Hamburgers|703
+duper|Filaments|473
+duper|Patches|0
+duper|Dumbbells|703
+duper|Charcoal|703
+duper|Feathers|703
+duper|Resin|334
+duper|Shards|473
+duper|Tough Stuff|455
+duper|Iron Filaments|0
+duper|Polish|334
+duper|Ectoplasm|0
+duper|Pebbles|188
+duper|Perfections|334
+duper|Poison|0
+duper|Ash|334
+duper|New Tags|334
+duper|Vibrations|72
+duper|Water|334
+duper|Goo|72
+duper|Rubber|0
+duper|Dust|0
+duper|Ice|188
+duper|Crystalline Shards|267
+duper|Strange Capacitors|0
+duper|Glint|267
+duper|Cellulose|72
+duper|Magma Balls|267
+duper|Ghastly Eyes|0
+duper|Jotuun Shards|150
+haz|Dyes|0
+haz|Circuits|946
+haz|Plastics|669
+haz|Hamburgers|0
+haz|Filaments|0
+haz|Patches|0
+haz|Dumbbells|1055
+haz|Charcoal|0
+haz|Feathers|669
+haz|Resin|467
+haz|Shards|669
+haz|Tough Stuff|467
+haz|Iron Filaments|0
+haz|Polish|0
+haz|Ectoplasm|467
+haz|Pebbles|946
+haz|Perfections|0
+haz|Poison|946
+haz|Ash|1055
+haz|New Tags|0
+haz|Vibrations|0
+haz|Water|0
+haz|Goo|0
+haz|Rubber|0
+haz|Dust|0
+haz|Ice|0
+haz|Crystalline Shards|535
+haz|Strange Capacitors|0
+haz|Glint|0
+haz|Cellulose|535
+haz|Magma Balls|374
+haz|Ghastly Eyes|374
+haz|Jotuun Shards|0
+mundane|Dyes|912
+mundane|Circuits|378
+mundane|Plastics|0
+mundane|Hamburgers|0
+mundane|Filaments|0
+mundane|Patches|467
+mundane|Dumbbells|912
+mundane|Charcoal|0
+mundane|Feathers|912
+mundane|Resin|54
+mundane|Shards|54
+mundane|Tough Stuff|108
+mundane|Iron Filaments|378
+mundane|Polish|229
+mundane|Ectoplasm|0
+mundane|Pebbles|0
+mundane|Perfections|0
+mundane|Poison|0
+mundane|Ash|378
+mundane|New Tags|0
+mundane|Vibrations|0
+mundane|Water|54
+mundane|Goo|0
+mundane|Rubber|447
+mundane|Dust|0
+mundane|Ice|54
+mundane|Crystalline Shards|54
+mundane|Strange Capacitors|54
+mundane|Glint|0
+mundane|Cellulose|0
+mundane|Magma Balls|0
+mundane|Ghastly Eyes|0
+mundane|Jotuun Shards|54
+trash|Dyes|0
+trash|Circuits|0
+trash|Plastics|818
+trash|Hamburgers|0
+trash|Filaments|0
+trash|Patches|0
+trash|Dumbbells|818
+trash|Charcoal|769
+trash|Feathers|769
+trash|Resin|382
+trash|Shards|740
+trash|Tough Stuff|0
+trash|Iron Filaments|740
+trash|Polish|818
+trash|Ectoplasm|0
+trash|Pebbles|0
+trash|Perfections|0
+trash|Poison|382
+trash|Ash|0
+trash|New Tags|0
+trash|Vibrations|0
+trash|Water|0
+trash|Goo|382
+trash|Rubber|818
+trash|Dust|740
+trash|Ice|0
+trash|Crystalline Shards|0
+trash|Strange Capacitors|0
+trash|Glint|654
+trash|Cellulose|654
+trash|Magma Balls|0
+trash|Ghastly Eyes|0
+trash|Jotuun Shards|0
+collectors|Dyes|1055
+collectors|Circuits|134
+collectors|Plastics|912
+collectors|Hamburgers|134
+collectors|Filaments|0
+collectors|Patches|115
+collectors|Dumbbells|669
+collectors|Charcoal|946
+collectors|Feathers|0
+collectors|Resin|1055
+collectors|Shards|1055
+collectors|Tough Stuff|669
+collectors|Iron Filaments|134
+collectors|Polish|134
+collectors|Ectoplasm|0
+collectors|Pebbles|115
+collectors|Perfections|946
+collectors|Poison|0
+collectors|Ash|0
+collectors|New Tags|0
+collectors|Vibrations|1055
+collectors|Water|912
+collectors|Goo|912
+collectors|Rubber|669
+collectors|Dust|134
+collectors|Ice|0
+collectors|Crystalline Shards|535
+collectors|Strange Capacitors|108
+collectors|Glint|108
+collectors|Cellulose|0
+collectors|Magma Balls|0
+collectors|Ghastly Eyes|0
+collectors|Jotuun Shards|0
+ccc3|Dyes|379
+ccc3|Circuits|379
+ccc3|Plastics|371
+ccc3|Hamburgers|738
+ccc3|Filaments|0
+ccc3|Patches|84
+ccc3|Dumbbells|1148
+ccc3|Charcoal|1148
+ccc3|Feathers|0
+ccc3|Resin|1148
+ccc3|Shards|379
+ccc3|Tough Stuff|815
+ccc3|Iron Filaments|0
+ccc3|Polish|815
+ccc3|Ectoplasm|738
+ccc3|Pebbles|815
+ccc3|Perfections|0
+ccc3|Poison|84
+ccc3|Ash|0
+ccc3|New Tags|84
+ccc3|Vibrations|0
+ccc3|Water|815
+ccc3|Goo|84
+ccc3|Rubber|371
+ccc3|Dust|738
+ccc3|Ice|1629
+ccc3|Crystalline Shards|303
+ccc3|Strange Capacitors|303
+ccc3|Glint|652
+ccc3|Cellulose|0
+ccc3|Magma Balls|0
+ccc3|Ghastly Eyes|84
+ccc3|Jotuun Shards|1303
+entropy|Dyes|946
+entropy|Circuits|608
+entropy|Plastics|608
+entropy|Hamburgers|0
+entropy|Filaments|608
+entropy|Patches|459
+entropy|Dumbbells|946
+entropy|Charcoal|0
+entropy|Feathers|467
+entropy|Resin|1055
+entropy|Shards|1055
+entropy|Tough Stuff|72
+entropy|Iron Filaments|608
+entropy|Polish|0
+entropy|Ectoplasm|1055
+entropy|Pebbles|0
+entropy|Perfections|0
+entropy|Poison|669
+entropy|Ash|72
+entropy|New Tags|0
+entropy|Vibrations|669
+entropy|Water|669
+entropy|Goo|467
+entropy|Rubber|0
+entropy|Dust|467
+entropy|Ice|0
+entropy|Crystalline Shards|535
+entropy|Strange Capacitors|0
+entropy|Glint|0
+entropy|Cellulose|374
+entropy|Magma Balls|72
+entropy|Ghastly Eyes|374
+entropy|Jotuun Shards|0
+nolife|Dyes|912
+nolife|Circuits|669
+nolife|Plastics|306
+nolife|Hamburgers|1055
+nolife|Filaments|669
+nolife|Patches|0
+nolife|Dumbbells|1055
+nolife|Charcoal|156
+nolife|Feathers|0
+nolife|Resin|1055
+nolife|Shards|311
+nolife|Tough Stuff|669
+nolife|Iron Filaments|216
+nolife|Polish|0
+nolife|Ectoplasm|306
+nolife|Pebbles|0
+nolife|Perfections|0
+nolife|Poison|156
+nolife|Ash|0
+nolife|New Tags|1055
+nolife|Vibrations|669
+nolife|Water|946
+nolife|Goo|0
+nolife|Rubber|0
+nolife|Dust|156
+nolife|Ice|0
+nolife|Crystalline Shards|249
+nolife|Strange Capacitors|535
+nolife|Glint|0
+nolife|Cellulose|0
+nolife|Magma Balls|0
+nolife|Ghastly Eyes|125
+nolife|Jotuun Shards|0

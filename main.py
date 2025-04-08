@@ -33,11 +33,16 @@ def optimize_materials():
     ds.material_optimize(mchoice)
     ds.boxprint("Rankings: ")
 
-
+'''
 # The actual code that runs.
 uimp = int(input("1 (afk functionality) or 2 (material optimization): "))
 if uimp == 1:
     afk_materials()
 elif uimp == 2:
     optimize_materials()
+'''
 
+ds.rank_successor(10000)
+ds.rank_reading('Plastic')
+
+# ds.clear_ranks()
