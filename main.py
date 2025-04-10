@@ -41,8 +41,5 @@ if uimp == 1:
 elif uimp == 2:
     optimize_materials()
 '''
-
 ds.rank_successor(10000)
-ds.rank_reading('Plastic')
-
-# ds.clear_ranks()
+ds.rank_reading('Ectoplasm')

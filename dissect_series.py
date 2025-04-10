@@ -15,61 +15,39 @@ def boxprint(txt): # prints something in a neat box
         print("+----------------+")
 
 def check_rarity(arr, p, q): # check rarity and return number SINGLE CUBE ARRAY
-        if arr[p][q] == "c": # common rarity
-                return 0
-        elif arr[p][q] == "u": # uncommon rarity
-                return 1
-        elif arr[p][q] == "r": # rare rarity
-                return 2
-        elif arr[p][q] == "e": # epic rarity
-                return 3
-        elif arr[p][q] == "l": # legendary rarity
-                return 4
-        elif arr[p][q] == "rl": # relic rarity
-                return 5
-        elif arr[p][q] == "cb": # cubic rarity
-                return 6
-        elif arr[p][q] == "sp": # special rarity
-                return 10
+        if arr[p][q] == "c": return 0 
+        elif arr[p][q] == "u": return 1
+        elif arr[p][q] == "r": return 2
+        elif arr[p][q] == "e": return 3
+        elif arr[p][q] == "l": return 4
+        elif arr[p][q] == "rl": return 5
+        elif arr[p][q] == "cb": return 6
+        elif arr[p][q] == "sp": return 10
         else:
                 print("+-------FATAL ERROR HAS OCCURRED-------+")
                 raise ValueError("Improper rarity at cube: " + str(arr[p][0])) # Fucked up!!
 
 def return_mps(arr, rarity, legbool): # return mat chance from array input, SINGLE CUBE ARRAY
         if legbool == False: # Return regular materials (ie Plastics)
-                if rarity == 0 or rarity == 10:
-                        return(arr[2]/100) * 0.26 # Mats per Spin (common and special have exact same...)
-                elif rarity == 1:
-                        return (arr[2]/100) * 0.613
-                elif rarity == 2:
-                        return (arr[2]/100) * 1.1964
-                elif rarity == 3:
-                        return (arr[2]/100) * 2.0678
-                elif rarity == 4:
-                        return (arr[2]/100) * 3.04
-                elif rarity == 5:
-                        return (arr[2]/100) * 3.5392
-                elif rarity == 6:
-                        return (arr[2]/100) * 6
-                else:
-                        return 0 # failsafe
+                if rarity == 0 or rarity == 10: return(arr[2]/100) * 0.26 # Mats per Spin (common and special have exact same...)
+                elif rarity == 1: return (arr[2]/100) * 0.613
+                elif rarity == 2: return (arr[2]/100) * 1.1964
+                elif rarity == 3: return (arr[2]/100) * 2.0678
+                elif rarity == 4: return (arr[2]/100) * 3.04
+                elif rarity == 5: return (arr[2]/100) * 3.5392
+                elif rarity == 6: return (arr[2]/100) * 6
+                else: return 0 # failsafe
         elif legbool == True: # Return legendary materials (ie Strange Capacitors)
-                if rarity == 4:
-                        return (arr[2]/100) * 2.4312
-                elif rarity == 5:
-                        return (arr[2]/100) * 2.8312
-                elif rarity == 6:
-                        return (arr[2]/100) * 6
-                else:
-                        return 0 # failsafe; special also doesnt give leg
+                if rarity == 4: return (arr[2]/100) * 2.4312
+                elif rarity == 5: return (arr[2]/100) * 2.8312
+                elif rarity == 6: return (arr[2]/100) * 6
+                else: return 0 # failsafe; special also doesnt give leg
 
 def material_check(seriesarr, rarity): # check materials of cubes from array
         output_arr = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
         for AB in range(len(seriesarr)):
-                for AE in range(0, 26, 1):
-                        output_arr[AE] = return_mps(seriesarr, rarity, 0) * seriesarr.count(ml.mat_called_name[AE])
-                for AF in range(26, 33, 1):
-                        output_arr[AF] = return_mps(seriesarr, rarity, 1) * seriesarr.count(ml.mat_called_name[AF])
+                for AE in range(0, 26, 1): output_arr[AE] = return_mps(seriesarr, rarity, 0) * seriesarr.count(ml.mat_called_name[AE])
+                for AF in range(26, 33, 1): output_arr[AF] = return_mps(seriesarr, rarity, 1) * seriesarr.count(ml.mat_called_name[AF])
         return output_arr # This is the output for the cube itself.
 
 def error_input_check(cubearr, p):
@@ -93,11 +71,8 @@ def dissect(s): # dissect a series from input
 def mats_on_afk(minutes, series, tallym, hsbool): # check mats on afk
         moa_output = dissect(series)
         totalspins = (minutes*6) * (1+tallym)
-        if hsbool == True:
-                totalspins *= 2
-        for AD in range(len(moa_output)):
-                moa_output[AD] *= totalspins
-                moa_output[AD] = round(moa_output[AD])
+        if hsbool == True: totalspins *= 2
+        for AD in range(len(moa_output)): moa_output[AD] = round(moa_output[AD] * totalspins)
         return moa_output
 
 def beautify_mlist(arr, min, tmod, hsb): # essentially the end print result
@@ -160,32 +135,25 @@ def series_check(u): # big series check function (sadly, can't just prepend "cb.
 
 def check_mat_position(m):
         for Z in range(len(ml.mat_display_name)):
-                if m == ml.mat_display_name[Z]:
-                        return Z
+                if m == ml.mat_display_name[Z]: return Z
 
 def material_optimize(m):
         mpos = check_mat_position(m)
-        enarr, output_arr = []
+        enarr = []
+        output_arr = []
         for N in range(len(ml.series_list)):
-                try:
-                        used_s = series_check(ml.series_list[N]) # get the series into temp variable
-                except:
-                        break # get outta there
+                try: used_s = series_check(ml.series_list[N]) # get the series into temp variable
+                except: break # get outta there
                 enarr.append([ml.series_list[N], dissect(used_s)[mpos]]) # ex. ["1", 0.0378]
 
         while len(enarr) > 0:
                 lm = enarr[0] # assume largest is first pos
                 for S in range(len(enarr)):
-                        if enarr[S][1] > lm[1]:
-                                lm = enarr[S] # find largest number, essentially
+                        if enarr[S][1] > lm[1]: lm = enarr[S] # find largest number, essentially
                 output_arr.append(lm)
                 enarr.remove(lm)
         boxprint("Rankings: ")
-        for P in range(len(output_arr)):
-                print("Rank #" + str(P) + ": " + output_arr[P][0] + " (" + str(output_arr[P][1]) + ")")
-
-def clear_ranks():
-        open('ranksuccessorpush.txt','w').close() # in case I need to do this manually
+        for P in range(len(output_arr)): print("Rank #" + str(P) + ": " + output_arr[P][0] + " (" + str(output_arr[P][1]) + ")")
 
 def find_nth_overlapping(usedstring, texttofind, n): # credits to "Richard" from stack overflow for this one :)
     start = usedstring.find(texttofind)
@@ -195,13 +163,12 @@ def find_nth_overlapping(usedstring, texttofind, n): # credits to "Richard" from
     return start
 
 def rank_successor(spincount):
-        clear_ranks()
+        open('ranksuccessorpush.txt', 'r+').close()
         spincount = math.ceil(spincount/6)
         tempseriespush = []
         f = open('ranksuccessorpush.txt', 'a')
         for seriesname in ml.series_list:
-                try:
-                        tempseriespush.append(mats_on_afk(spincount, series_check(seriesname), 0, 0)) # end: [[s1mat1, s1mat2,...],[s2mat1, s2mat2,...],...] rundown from series check list
+                try: tempseriespush.append(mats_on_afk(spincount, series_check(seriesname), 0, 0)) # end: [[s1mat1, s1mat2,...],[s2mat1, s2mat2,...],...] rundown from series check list
                 except: print("not right code :(")
         for ser in range(len(tempseriespush)): # this is for each series
                 for mat in range(len(tempseriespush[ser])): # this is for each material
@@ -209,7 +176,8 @@ def rank_successor(spincount):
 
 def rank_reading(material):
         f = open('ranksuccessorpush.txt', 'r')
-        srank, pushrank = []
+        srank = []
+        pushrank = []
         for line in f:
                 if str(material).capitalize() in line:
                         sepindex = line.find('|')
